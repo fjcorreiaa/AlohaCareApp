@@ -242,7 +242,7 @@ input, select, textarea, button, submit {
     padding: 5%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 580px) {
     
 .container {
     width: 100%;
