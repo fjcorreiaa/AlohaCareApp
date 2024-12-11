@@ -57,8 +57,6 @@ body {
     transition: background-color 0.3s;
     z-index: 1000;
     width: 12%;
-    font-size: 50px;
-
 }
 
 .fixed-button:hover {
@@ -72,16 +70,16 @@ h1, h2, label {
 }
 
 h1 {
-font-size: 400%;
+font-size: 300%;
 }
 
 h2 {
-    font-size: 300%;
+    font-size: 200%;
 }
 
 
 label {
-    font-size: 350%;
+    font-size: 150%;
     margin: 3%;
 }
 
@@ -154,7 +152,7 @@ input, select, textarea, button, submit {
     padding: 2%;
     position: absolute;
     left: 2%;
-    top: 35%;
+    top: 10%;
     width: 80%%;
 }
 
@@ -192,7 +190,6 @@ input, select, textarea, button, submit {
     margin: 5px 0;
     text-align: right;
 }
-
 
 
 .chat {
@@ -234,12 +231,12 @@ input, select, textarea, button, submit {
 
 
 .user-info{
-    position: relative;
+    position: absolute;
     justify-content: left;
-    top: 5%;
+    top: 1%;
     left: 12%;
-    margin-top: 5%;
-    padding: 5%;
+    margin-top: 1%;
+    padding: 1%;
 }
 
 @media (max-width: 580px) {
