@@ -16,8 +16,6 @@ app = Flask(__name__)
 def home():
     return render_template("Index.html")
 
-if __name__ == "__main__":
-    app.run()
 
 user_responses = {}
 userData = {}
