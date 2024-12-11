@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aloha Health</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Section 1: User Registration -->
+        <section id="s1" class="view" >
+            <h2>Register</h2>
+            <img src="/static/Image/1.svg" alt="Image" class="section-image">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+        </section>
+<form>
+        <!-- Section 2: Date of Birth -->
+        <section id="s2" class="view hidden">
+            <h2>Date of Birth</h2>
+            <img src="/static/Image/2.svg" alt="Image" class="section-image">
+            <div class="dob-selectors">
+                <select id="dob-day"></select>
+                <select id="dob-month"></select>
+                <select id="dob-year"></select>
+            </div>
+        </section>
+
+        <!-- Section 3: Gender -->
+        <section id="s3" class="view hidden">
+            <h2>Gender </h2>
+            <img src="/static/Image/3.svg" alt="Image" class="section-image">
+            <select id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="prefer-not-to-say">Prefer not to say</option>
+            </select>
+        </section>
+
+                <!-- Section 4: MEdication -->
+            <section id="s4" class="view hidden">
+                <h2>Medications </h2>
+            <img src="/static/Image/4.svg" alt="Image" class="section-image">
+            <textarea id="medications" placeholder="Enter medications in use"></textarea>
+            </section>
+
+
+
+            <!-- Section 5: Diagnosis -->
+                <section id="s5" class="view2 hidden">
+                    <h2>Diagnosis</h2>
+            <img src="/static/Image/5.svg" alt="Image" class="section-image">
+                    <label for="diagnosis">Diagnosis:</label>
+                    <select id="diagnosis">
+                        <option value="none">None</option>
+                        <option value="cardiac-disease">Cardiac Disease</option>
+                        <option value="lung-disease">Lung Disease</option>
+                        <option value="metabolic-disease">Metabolic Disease</option>
+                        <option value="metabolic-disease">Mental health illness</option>
+                        <option value="metabolic-disease">Breast cancer</option>
+                        <option value="metabolic-disease">Other cancers</option>
+                    </select>
+                </section>
+
+
+            </form>
+
+               
+                <section id="s5" class="view hidden">
+                    <div class="logo"><img src="/static/Image/logo.svg" alt="Image" class="section-image-logo"> </div>
+                    <div class="home">
+                    <h1> Welcome</h1>
+                    <h2>@user</h2>
+                    <p><b>Health number:</b>5000</p>
+                </div>
+                <div>
+                <div class="risk"> 
+                    <h2>Risk Assentiment</h2>
+                    <h3>Your risk assessment tells us we need to know about your health every 3 months</h3> 
+                  <img src="/static/Image/6.svg" alt="Image" class="section-image">
+                </div> 
+                    <div>
+                        <a href="/page2">
+                        <button type="submit" class="start-btn"> Get Started</button>
+                    </a>
+                    </div>
+                </div>
+                </section>
+            </div>
+        
+            <!-- Fixed Button -->
+            <button class="fixed-button" onclick="nextSection()"> > </button>
+        
+            <script src="/static/scripts.js"></script>
+        </body>
+        </html>
+        

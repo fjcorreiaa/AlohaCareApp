@@ -1,0 +1,5168 @@
+{
+    "clusters": {
+        "0": "Paciente com alto risco de gasto",
+        "1": "Paciente com baixo risco de gasto"
+    },
+    "crosstab": {
+        "MEM_GENDER_x": {
+            "Female": {
+                "0": 220058,
+                "1": 15
+            },
+            "Male": {
+                "0": 204454,
+                "1": 8
+            }
+        },
+        "MEM_RACE_x": {
+            "Asian.0": {
+                "0": 3980,
+                "1": 0
+            },
+            "Black": {
+                "0": 16684,
+                "1": 0
+            },
+            "Caucasian": {
+                "0": 41355,
+                "1": 3
+            },
+            "Other/Unknown": {
+                "0": 362493,
+                "1": 20
+            }
+        },
+        "PAYER_LOB_x": {
+            "COMMERCIAL": {
+                "0": 209536,
+                "1": 12
+            },
+            "MEDICAID": {
+                "0": 180930,
+                "1": 6
+            },
+            "MEDICARE": {
+                "0": 25158,
+                "1": 3
+            },
+            "MEDICARE SUPPLEMENT": {
+                "0": 8888,
+                "1": 2
+            }
+        },
+        "SV_STAT": {
+            "D": {
+                "0": 2765,
+                "1": 2
+            },
+            "P": {
+                "0": 421747,
+                "1": 21
+            }
+        },
+        "RELATION": {
+            "DEPENDENT": {
+                "0": 6371,
+                "1": 3
+            },
+            "SPOUSE": {
+                "0": 2428,
+                "1": 2
+            },
+            "SUBSCRIBER": {
+                "0": 405452,
+                "1": 12
+            },
+            "UNKNOWN": {
+                "0": 10261,
+                "1": 6
+            }
+        },
+        "SERVICE_SETTING": {
+            "INPATIENT": {
+                "0": 24,
+                "1": 1
+            },
+            "OTHER": {
+                "0": 8088,
+                "1": 0
+            },
+            "OUTPATIENT": {
+                "0": 4989,
+                "1": 16
+            },
+            "PROFESSIONAL": {
+                "0": 411411,
+                "1": 6
+            }
+        },
+        "DIAGNOSTIC_CONDITION_CATEGORY_DESC": {
+            "ADHD": {
+                "0": 597,
+                "1": 0
+            },
+            "ALZHEIMER'S DISEASE": {
+                "0": 32,
+                "1": 0
+            },
+            "ASTHMA": {
+                "0": 894,
+                "1": 1
+            },
+            "ATRIAL FIBRILLATION": {
+                "0": 153,
+                "1": 0
+            },
+            "AUTISM": {
+                "0": 420,
+                "1": 0
+            },
+            "BLINDNESS": {
+                "0": 71,
+                "1": 0
+            },
+            "CARDIAC DYSRHYTHMIA": {
+                "0": 348,
+                "1": 0
+            },
+            "CATARACT": {
+                "0": 3,
+                "1": 0
+            },
+            "CEREBROVASCULAR DISEASES": {
+                "0": 204,
+                "1": 0
+            },
+            "CHRONIC MUSCULAR SKELETAL CONDITIONS": {
+                "0": 298,
+                "1": 1
+            },
+            "CHRONIC PAIN DISORDERS": {
+                "0": 1103,
+                "1": 0
+            },
+            "CHRONIC RHEUMATIC HEART DISEASES": {
+                "0": 26,
+                "1": 0
+            },
+            "CONGENITAL ANOMALIES OF THE CNS": {
+                "0": 41,
+                "1": 0
+            },
+            "CONGENITAL ANOMALIES OF THE MUSCULOSKELATAL SYSTEM": {
+                "0": 110,
+                "1": 0
+            },
+            "CONGENITAL CARDIAC DISEASE": {
+                "0": 90,
+                "1": 0
+            },
+            "COPD": {
+                "0": 316,
+                "1": 0
+            },
+            "CYSTIC FIBROSIS": {
+                "0": 2,
+                "1": 0
+            },
+            "DEPRESSION": {
+                "0": 2743,
+                "1": 0
+            },
+            "DEVELOPMENTAL DELAYS": {
+                "0": 133,
+                "1": 0
+            },
+            "DISEASES OF STOMACH ESOPHAGUS AND DUODENUM": {
+                "0": 1117,
+                "1": 0
+            },
+            "EATING DISORDERS": {
+                "0": 46,
+                "1": 0
+            },
+            "EPILEPSY": {
+                "0": 168,
+                "1": 0
+            },
+            "EXTRA PYRAMIDAL & MOVEMENT DISORDERS": {
+                "0": 227,
+                "1": 0
+            },
+            "HEART FAILURE": {
+                "0": 201,
+                "1": 0
+            },
+            "HEMOPHILIA & SICKLE CELL & OTHER CHRONIC BLOOD DISORDERS": {
+                "0": 145,
+                "1": 0
+            },
+            "HIGH RISK PREGNANCY": {
+                "0": 352,
+                "1": 0
+            },
+            "HIV": {
+                "0": 29,
+                "1": 0
+            },
+            "HTN (HYPERTENSION)": {
+                "0": 1768,
+                "1": 0
+            },
+            "HYPERLIPIDEMIA": {
+                "0": 2322,
+                "1": 1
+            },
+            "IHD (ISCHEMIC HEART DISEASE)": {
+                "0": 338,
+                "1": 0
+            },
+            "LEARNING DISABILITIES": {
+                "0": 467,
+                "1": 0
+            },
+            "LEUKEMIA": {
+                "0": 26,
+                "1": 0
+            },
+            "MOOD [AFFECTIVE] DISORDERS EXCEPT CHRONIC DEPRESSION": {
+                "0": 755,
+                "1": 0
+            },
+            "NEOPLASM WITHOUT LEUKEMIA": {
+                "0": 959,
+                "1": 5
+            },
+            "NEUROMUSCULAR DISORDERS": {
+                "0": 68,
+                "1": 0
+            },
+            "NON MELANOCYTIC SKIN CANCER": {
+                "0": 411,
+                "1": 0
+            },
+            "NON-INFECTIOUS CIRRHOSIS/ HEPATITIS": {
+                "0": 259,
+                "1": 0
+            },
+            "NON-INFECTIVE ENTERITIS AND COLITIS": {
+                "0": 165,
+                "1": 1
+            },
+            "NON-RHEUMATIC VALVULAR HEART DISEASE": {
+                "0": 133,
+                "1": 0
+            },
+            "OBESITY": {
+                "0": 395773,
+                "1": 2
+            },
+            "OSTEO ARTHRITIS": {
+                "0": 1446,
+                "1": 1
+            },
+            "OSTEOPOROSIS": {
+                "0": 109,
+                "1": 0
+            },
+            "OTHER CHRONIC CONDITIONS": {
+                "0": 1,
+                "1": 0
+            },
+            "OTHER CHRONIC DISEASES OF THE NERVOUS SYSTEM": {
+                "0": 914,
+                "1": 3
+            },
+            "OTHER CHRONIC DISORDER OF EYE": {
+                "0": 38,
+                "1": 0
+            },
+            "OTHER CONGENITAL ANOMALY": {
+                "0": 280,
+                "1": 0
+            },
+            "OTHER ENDOCRINE AND METABOLIC DISORDERS IN CHILDHOOD\n": {
+                "0": 12,
+                "1": 0
+            },
+            "OTHER MENTAL DISORDERS": {
+                "0": 220,
+                "1": 0
+            },
+            "PANDEMICS": {
+                "0": 299,
+                "1": 0
+            },
+            "PEDIATRIC DEAFNESS": {
+                "0": 42,
+                "1": 0
+            },
+            "PERIPHERAL VASCULAR DISEASE": {
+                "0": 274,
+                "1": 0
+            },
+            "POST TRAUMA CHRONIC CONDITION": {
+                "0": 12,
+                "1": 0
+            },
+            "PULMONARY HEART DISEASE AND DISEASES OF PULMONARY CIRCULATION": {
+                "0": 28,
+                "1": 0
+            },
+            "PULMONARY HYPERTENSION": {
+                "0": 13,
+                "1": 0
+            },
+            "REFRACTIVE ERROR": {
+                "0": 531,
+                "1": 0
+            },
+            "RENAL FAILURE/ CHRONIC KIDNEY DISEASE/ ESRD POST TRANSPLANT": {
+                "0": 519,
+                "1": 2
+            },
+            "RHEUMATOID ARTHRITIS": {
+                "0": 88,
+                "1": 0
+            },
+            "SCHIZOPHRENIA": {
+                "0": 255,
+                "1": 0
+            },
+            "SERIOUS CHRONIC SKIN DISORDERS": {
+                "0": 155,
+                "1": 3
+            },
+            "SEVERE DEMENTIA": {
+                "0": 165,
+                "1": 0
+            },
+            "SLEEP DISORDERS": {
+                "0": 257,
+                "1": 0
+            },
+            "SPINAL DEFORMITY": {
+                "0": 63,
+                "1": 0
+            },
+            "SUBSTANCE ABUSE": {
+                "0": 1937,
+                "1": 2
+            },
+            "SYSTEMIC CONNECTIVE TISSUE DISORDERS": {
+                "0": 42,
+                "1": 1
+            },
+            "THYROID DISEASE": {
+                "0": 595,
+                "1": 0
+            },
+            "TUBERCULOSIS": {
+                "0": 31,
+                "1": 0
+            },
+            "TYPE 1 DIABETES": {
+                "0": 129,
+                "1": 0
+            },
+            "TYPE 2 DIABETES": {
+                "0": 2675,
+                "1": 0
+            },
+            "VIRAL HEPATITIS (CHRONIC)": {
+                "0": 69,
+                "1": 0
+            }
+        },
+        "CPT_CCS_LABEL": {
+            "ABDOMINAL PARACENTESIS": {
+                "0": 2,
+                "1": 0
+            },
+            "ALCOHOL AND DRUG MANAGEMENT, TREATMENT, AND REHABILITATION": {
+                "0": 526,
+                "1": 1
+            },
+            "AMPUTATION OF LOWER EXTREMITY": {
+                "0": 1,
+                "1": 0
+            },
+            "ANCILLARY SERVICES": {
+                "0": 2121,
+                "1": 0
+            },
+            "ANESTHESIA": {
+                "0": 44,
+                "1": 0
+            },
+            "APPENDECTOMY": {
+                "0": 1,
+                "1": 0
+            },
+            "ARTERIO- OR VENOGRAM (NOT HEART AND HEAD)": {
+                "0": 1,
+                "1": 0
+            },
+            "ARTHROCENTESIS": {
+                "0": 113,
+                "1": 0
+            },
+            "ARTHROPLASTY KNEE": {
+                "0": 9,
+                "1": 1
+            },
+            "ARTHROPLASTY OTHER THAN HIP OR KNEE": {
+                "0": 4,
+                "1": 0
+            },
+            "BLOOD AND BLOOD PRODUCT TRANSFUSION": {
+                "0": 4,
+                "1": 0
+            },
+            "BREAST BIOPSY AND OTHER DIAGNOSTIC PROCEDURES ON BREAST": {
+                "0": 3,
+                "1": 0
+            },
+            "BUNIONECTOMY OR REPAIR OF TOE DEFORMITIES": {
+                "0": 1,
+                "1": 0
+            },
+            "CANCER CHEMOTHERAPY": {
+                "0": 73,
+                "1": 0
+            },
+            "CARDIAC STRESS TESTS": {
+                "0": 25,
+                "1": 0
+            },
+            "CESAREAN SECTION": {
+                "0": 17,
+                "1": 0
+            },
+            "CIRCUMCISION": {
+                "0": 14,
+                "1": 0
+            },
+            "COLONOSCOPY AND BIOPSY": {
+                "0": 69,
+                "1": 0
+            },
+            "COMPUTERIZED AXIAL TOMOGRAPHY (CT) SCAN HEAD": {
+                "0": 5,
+                "1": 0
+            },
+            "CONSULTATION, EVALUATION, AND PREVENTATIVE CARE": {
+                "0": 399523,
+                "1": 0
+            },
+            "CONVERSION OF CARDIAC RHYTHM": {
+                "0": 6,
+                "1": 1
+            },
+            "CORONARY ARTERY BYPASS GRAFT (CABG)": {
+                "0": 1,
+                "1": 0
+            },
+            "CPT CODES NOT CLASSIFIED (F CODES)": {
+                "0": 3825,
+                "1": 0
+            },
+            "CREATION, REVISION AND REMOVAL OF ARTERIOVENOUS FISTULA OR VESSEL-TO-VESSEL CANNULA FOR DIALYSIS": {
+                "0": 1,
+                "1": 0
+            },
+            "CT SCAN ABDOMEN": {
+                "0": 2,
+                "1": 0
+            },
+            "CT SCAN CHEST": {
+                "0": 22,
+                "1": 0
+            },
+            "DEBRIDEMENT OF WOUND, INFECTION OR BURN": {
+                "0": 20,
+                "1": 0
+            },
+            "DECOMPRESSION PERIPHERAL NERVE": {
+                "0": 3,
+                "1": 0
+            },
+            "DESTRUCTION OF LESION OF RETINA AND CHOROID": {
+                "0": 3,
+                "1": 0
+            },
+            "DIAGNOSTIC BRONCHOSCOPY AND BIOPSY OF BRONCHUS": {
+                "0": 4,
+                "1": 0
+            },
+            "DIAGNOSTIC CARDIAC CATHETERIZATION, CORONARY ARTERIOGRAPHY": {
+                "0": 17,
+                "1": 0
+            },
+            "DIAGNOSTIC ENDOCRINE PROCEDURES": {
+                "0": 13,
+                "1": 0
+            },
+            "DIAGNOSTIC PHYSICAL, OCCUPATIONAL, AND SPEECH THERAPY": {
+                "0": 324,
+                "1": 0
+            },
+            "DIAGNOSTIC PROCEDURES ON EAR": {
+                "0": 7,
+                "1": 0
+            },
+            "DIAGNOSTIC PROCEDURES ON EYE": {
+                "0": 28,
+                "1": 0
+            },
+            "DIAGNOSTIC PROCEDURES ON NOSE, MOUTH AND PHARYNX": {
+                "0": 10,
+                "1": 0
+            },
+            "DIAGNOSTIC PROCEDURES, MALE GENITAL": {
+                "0": 2,
+                "1": 0
+            },
+            "DIAGNOSTIC SPINAL TAP": {
+                "0": 4,
+                "1": 0
+            },
+            "DIAGNOSTIC ULTRASOUND OF ABDOMEN OR RETROPERITONEUM": {
+                "0": 14,
+                "1": 0
+            },
+            "DIAGNOSTIC ULTRASOUND OF HEAD AND NECK": {
+                "0": 15,
+                "1": 0
+            },
+            "DIAGNOSTIC ULTRASOUND OF HEART (ECHOCARDIOGRAM)": {
+                "0": 286,
+                "1": 0
+            },
+            "DILATATION AND CURETTAGE (D&C), ASPIRATION AFTER DELIVERY OR ABORTION": {
+                "0": 2,
+                "1": 0
+            },
+            "DIVISION OF JOINT CAPSULE, LIGAMENT OR CARTILAGE": {
+                "0": 3,
+                "1": 0
+            },
+            "DME AND SUPPLIES": {
+                "0": 1174,
+                "1": 0
+            },
+            "ELECTROCARDIOGRAM": {
+                "0": 475,
+                "1": 0
+            },
+            "ELECTROENCEPHALOGRAM (EEG)": {
+                "0": 30,
+                "1": 0
+            },
+            "ELECTROGRAPHIC CARDIAC MONITORING": {
+                "0": 190,
+                "1": 0
+            },
+            "EMBOLECTOMY AND ENDARTERECTOMY OF LOWER LIMBS": {
+                "0": 1,
+                "1": 0
+            },
+            "ENDOSCOPY AND ENDOSCOPIC BIOPSY OF THE URINARY TRACT": {
+                "0": 4,
+                "1": 0
+            },
+            "ENTERAL AND PARENTERAL NUTRITION": {
+                "0": 21,
+                "1": 0
+            },
+            "ESOPHAGEAL DILATATION": {
+                "0": 11,
+                "1": 0
+            },
+            "EXCISION OF SEMILUNAR CARTILAGE OF KNEE": {
+                "0": 6,
+                "1": 0
+            },
+            "EXCISION OF SKIN LESION": {
+                "0": 229,
+                "1": 0
+            },
+            "EXTRACORPOREAL LITHOTRIPSY, URINARY": {
+                "0": 1,
+                "1": 0
+            },
+            "EXTRACORPOREAL SHOCK WAVE, OTHER THAN URINARY": {
+                "0": 4,
+                "1": 0
+            },
+            "FETAL MONITORING": {
+                "0": 57,
+                "1": 0
+            },
+            "FORCEPS, VACUUM, AND BREECH DELIVERY": {
+                "0": 7,
+                "1": 0
+            },
+            "GASTROSTOMY, TEMPORARY AND PERMANENT": {
+                "0": 1,
+                "1": 0
+            },
+            "GENITOURINARY INCONTINENCE PROCEDURES": {
+                "0": 1,
+                "1": 0
+            },
+            "HCPCS LEVEL II CODES NOT CLASSIFIED": {
+                "0": 1682,
+                "1": 0
+            },
+            "HEARING DEVICES AND AUDIOLOGY SUPPLIES": {
+                "0": 5,
+                "1": 0
+            },
+            "HEART VALVE PROCEDURES": {
+                "0": 1,
+                "1": 0
+            },
+            "HEMODIALYSIS": {
+                "0": 3,
+                "1": 0
+            },
+            "HEMORRHOID PROCEDURES": {
+                "0": 1,
+                "1": 0
+            },
+            "HIP REPLACEMENT, TOTAL AND PARTIAL": {
+                "0": 1,
+                "1": 1
+            },
+            "HYSTERECTOMY, ABDOMINAL AND VAGINAL": {
+                "0": 3,
+                "1": 0
+            },
+            "INCISION AND DRAINAGE, SKIN AND SUBCUTANEOUS TISSUE": {
+                "0": 7,
+                "1": 0
+            },
+            "INCISION AND EXCISION OF CNS": {
+                "0": 1,
+                "1": 0
+            },
+            "INCISION OF PLEURA, THORACENTESIS, CHEST DRAINAGE": {
+                "0": 1,
+                "1": 0
+            },
+            "INDWELLING CATHETER": {
+                "0": 2,
+                "1": 0
+            },
+            "INGUINAL AND FEMORAL HERNIA REPAIR": {
+                "0": 1,
+                "1": 0
+            },
+            "INJECTIONS AND ASPIRATIONS OF MUSCLES, TENDONS, BURSA, JOINTS AND SOFT TISSUE": {
+                "0": 11,
+                "1": 0
+            },
+            "INSERTION OF CATHETER OR SPINAL STIMULATOR AND INJECTION INTO SPINAL CANAL": {
+                "0": 24,
+                "1": 1
+            },
+            "INSERTION, REVISION, REPLACEMENT, REMOVAL OF CARDIAC PACEMAKER OR CARDIOVERTER/DEFIBRILLATOR": {
+                "0": 6,
+                "1": 0
+            },
+            "LABORATORY - CHEMISTRY AND HEMATOLOGY": {
+                "0": 446,
+                "1": 0
+            },
+            "LAMINECTOMY, EXCISION INTERVERTEBRAL DISC": {
+                "0": 6,
+                "1": 0
+            },
+            "LENS AND CATARACT PROCEDURES": {
+                "0": 6,
+                "1": 0
+            },
+            "LIGATION OF FALLOPIAN TUBES": {
+                "0": 2,
+                "1": 0
+            },
+            "LUMPECTOMY, QUADRANTECTOMY OF BREAST": {
+                "0": 2,
+                "1": 0
+            },
+            "MAGNETIC RESONANCE IMAGING": {
+                "0": 10,
+                "1": 0
+            },
+            "MAMMOGRAPHY": {
+                "0": 37,
+                "1": 0
+            },
+            "MEDICATIONS (INJECTIONS, INFUSIONS AND OTHER FORMS)": {
+                "0": 911,
+                "1": 15
+            },
+            "MICROSCOPIC EXAMINATION (BACTERIAL SMEAR, CULTURE, TOXICOLOGY)": {
+                "0": 218,
+                "1": 0
+            },
+            "MYRINGOTOMY": {
+                "0": 4,
+                "1": 0
+            },
+            "NONHOSPITAL-BASED CARE (E.G., HOME HEALTH CARE, HOSPICE)": {
+                "0": 661,
+                "1": 0
+            },
+            "NONOPERATIVE REMOVAL OF FOREIGN BODY": {
+                "0": 1,
+                "1": 0
+            },
+            "NONOPERATIVE URINARY SYSTEM MEASUREMENTS": {
+                "0": 24,
+                "1": 0
+            },
+            "OPEN PROSTATECTOMY": {
+                "0": 1,
+                "1": 0
+            },
+            "OPHTHALMOLOGIC AND OTOLOGIC DIAGNOSIS AND TREATMENT": {
+                "0": 1102,
+                "1": 0
+            },
+            "ORAL AND DENTAL SERVICES": {
+                "0": 1,
+                "1": 0
+            },
+            "OTHER CT SCAN": {
+                "0": 3,
+                "1": 0
+            },
+            "OTHER DIAGNOSTIC CARDIOVASCULAR PROCEDURES": {
+                "0": 6,
+                "1": 0
+            },
+            "OTHER DIAGNOSTIC NERVOUS SYSTEM PROCEDURES": {
+                "0": 66,
+                "1": 0
+            },
+            "OTHER DIAGNOSTIC PROCEDURES OF RESPIRATORY TRACT AND MEDIASTINUM": {
+                "0": 6,
+                "1": 0
+            },
+            "OTHER DIAGNOSTIC PROCEDURES ON LUNG AND BRONCHUS": {
+                "0": 89,
+                "1": 0
+            },
+            "OTHER DIAGNOSTIC PROCEDURES ON MUSCULOSKELETAL SYSTEM": {
+                "0": 3,
+                "1": 0
+            },
+            "OTHER DIAGNOSTIC PROCEDURES ON SKIN AND SUBCUTANEOUS TISSUE": {
+                "0": 147,
+                "1": 0
+            },
+            "OTHER DIAGNOSTIC PROCEDURES, FEMALE ORGANS": {
+                "0": 31,
+                "1": 0
+            },
+            "OTHER DIAGNOSTIC RADIOLOGY AND RELATED TECHNIQUES": {
+                "0": 92,
+                "1": 0
+            },
+            "OTHER DIAGNOSTIC ULTRASOUND": {
+                "0": 44,
+                "1": 0
+            },
+            "OTHER EXCISION OF CERVIX AND UTERUS": {
+                "0": 1,
+                "1": 0
+            },
+            "OTHER EXTRAOCULAR MUSCLE AND ORBIT THERAPEUTIC PROCEDURES": {
+                "0": 3,
+                "1": 0
+            },
+            "OTHER FRACTURE AND DISLOCATION PROCEDURE": {
+                "0": 2,
+                "1": 0
+            },
+            "OTHER GASTROINTESTINAL DIAGNOSTIC PROCEDURES": {
+                "0": 10,
+                "1": 0
+            },
+            "OTHER INTRAOCULAR THERAPEUTIC PROCEDURES": {
+                "0": 27,
+                "1": 0
+            },
+            "OTHER LABORATORY": {
+                "0": 267,
+                "1": 0
+            },
+            "OTHER NON-OR LOWER GI THERAPEUTIC PROCEDURES": {
+                "0": 1,
+                "1": 0
+            },
+            "OTHER NON-OR OR CLOSED THERAPEUTIC NERVOUS SYSTEM PROCEDURES": {
+                "0": 77,
+                "1": 0
+            },
+            "OTHER NON-OR THERAPEUTIC CARDIOVASCULAR PROCEDURES": {
+                "0": 22,
+                "1": 0
+            },
+            "OTHER NON-OR THERAPEUTIC PROCEDURES OF URINARY TRACT": {
+                "0": 1,
+                "1": 0
+            },
+            "OTHER NON-OR THERAPEUTIC PROCEDURES ON MUSCULOSKELETAL SYSTEM": {
+                "0": 297,
+                "1": 0
+            },
+            "OTHER NON-OR THERAPEUTIC PROCEDURES ON NOSE, MOUTH AND PHARYNX": {
+                "0": 39,
+                "1": 0
+            },
+            "OTHER NON-OR THERAPEUTIC PROCEDURES ON SKIN AND BREAST": {
+                "0": 89,
+                "1": 0
+            },
+            "OTHER NON-OR THERAPEUTIC PROCEDURES, FEMALE ORGANS": {
+                "0": 3,
+                "1": 0
+            },
+            "OTHER NON-OR THERAPEUTIC PROCEDURES, MALE GENITAL": {
+                "0": 1,
+                "1": 0
+            },
+            "OTHER NON-OR UPPER GI THERAPEUTIC PROCEDURES": {
+                "0": 1,
+                "1": 0
+            },
+            "OTHER OR HEART PROCEDURES": {
+                "0": 1,
+                "1": 0
+            },
+            "OTHER OR LOWER GI THERAPEUTIC PROCEDURES": {
+                "0": 2,
+                "1": 0
+            },
+            "OTHER OR PROCEDURES ON VESSELS OF HEAD AND NECK": {
+                "0": 2,
+                "1": 0
+            },
+            "OTHER OR PROCEDURES ON VESSELS OTHER THAN HEAD AND NECK": {
+                "0": 2,
+                "1": 0
+            },
+            "OTHER OR THERAPEUTIC NERVOUS SYSTEM PROCEDURES": {
+                "0": 13,
+                "1": 0
+            },
+            "OTHER OR THERAPEUTIC PROCEDURES OF URINARY TRACT": {
+                "0": 1,
+                "1": 0
+            },
+            "OTHER OR THERAPEUTIC PROCEDURES ON BONE": {
+                "0": 4,
+                "1": 0
+            },
+            "OTHER OR THERAPEUTIC PROCEDURES ON JOINTS": {
+                "0": 7,
+                "1": 0
+            },
+            "OTHER OR THERAPEUTIC PROCEDURES ON MUSCULOSKELETAL SYSTEM": {
+                "0": 1,
+                "1": 0
+            },
+            "OTHER OR THERAPEUTIC PROCEDURES ON NOSE, MOUTH AND PHARYNX": {
+                "0": 4,
+                "1": 1
+            },
+            "OTHER OR THERAPEUTIC PROCEDURES ON SKIN AND BREAST": {
+                "0": 1,
+                "1": 0
+            },
+            "OTHER OR THERAPEUTIC PROCEDURES, MALE GENITAL": {
+                "0": 3,
+                "1": 0
+            },
+            "OTHER PHYSICAL, OCCUPATIONAL, AND SPEECH THERAPY AND REHABILITATION": {
+                "0": 63,
+                "1": 0
+            },
+            "OTHER PROCEDURES TO ASSIST DELIVERY": {
+                "0": 1,
+                "1": 0
+            },
+            "OTHER RESPIRATORY THERAPY": {
+                "0": 35,
+                "1": 0
+            },
+            "OTHER THERAPEUTIC EAR PROCEDURES": {
+                "0": 32,
+                "1": 0
+            },
+            "OTHER THERAPEUTIC ENDOCRINE PROCEDURES": {
+                "0": 1,
+                "1": 0
+            },
+            "OTHER THERAPEUTIC OBSTETRICAL PROCEDURES INCLUDING ANTEPARTUM AND POSTPARTUM CARE": {
+                "0": 19,
+                "1": 0
+            },
+            "OTHER THERAPEUTIC PROCEDURES": {
+                "0": 302,
+                "1": 0
+            },
+            "OTHER THERAPEUTIC PROCEDURES ON EYELIDS, CONJUNCTIVA, CORNEA": {
+                "0": 8,
+                "1": 0
+            },
+            "OTHER THERAPEUTIC PROCEDURES ON MUSCLES AND TENDONS": {
+                "0": 8,
+                "1": 0
+            },
+            "OTHER THERAPEUTIC PROCEDURES, HEMIC AND LYMPHATIC SYSTEM": {
+                "0": 5,
+                "1": 0
+            },
+            "OTHER VASCULAR CATHETERIZATION, NOT HEART": {
+                "0": 13,
+                "1": 0
+            },
+            "PARTIAL EXCISION BONE": {
+                "0": 5,
+                "1": 0
+            },
+            "PATHOLOGY": {
+                "0": 64,
+                "1": 0
+            },
+            "PERCUTANEOUS TRANSLUMINAL CORONARY ANGIOPLASTY (PTCA)": {
+                "0": 6,
+                "1": 0
+            },
+            "PERITONEAL DIALYSIS": {
+                "0": 72,
+                "1": 0
+            },
+            "PHYSICAL, OCCUPATIONAL, AND SPEECH THERAPY EXERCISES; MANIPULATION; AND OTHER PROCEDURES": {
+                "0": 1512,
+                "1": 0
+            },
+            "PLASTIC PROCEDURES ON NOSE": {
+                "0": 1,
+                "1": 0
+            },
+            "PROCTOSCOPY AND ANORECTAL BIOPSY": {
+                "0": 1,
+                "1": 0
+            },
+            "PROPHYLACTIC VACCINATIONS AND INOCULATIONS": {
+                "0": 2923,
+                "1": 0
+            },
+            "PSYCHOLOGICAL AND PSYCHIATRIC EVALUATION AND THERAPY": {
+                "0": 2652,
+                "1": 0
+            },
+            "REMOVAL OF ECTOPIC PREGNANCY": {
+                "0": 1,
+                "1": 0
+            },
+            "REPAIR OF RETINAL TEAR, DETACHMENT": {
+                "0": 1,
+                "1": 0
+            },
+            "RESPIRATORY INTUBATION AND MECHANICAL VENTILATION": {
+                "0": 2,
+                "1": 0
+            },
+            "ROUTINE CHEST X-RAY": {
+                "0": 50,
+                "1": 0
+            },
+            "SKIN GRAFT": {
+                "0": 11,
+                "1": 0
+            },
+            "SPINAL FUSION": {
+                "0": 8,
+                "1": 0
+            },
+            "SUTURE OF SKIN AND SUBCUTANEOUS TISSUE": {
+                "0": 43,
+                "1": 0
+            },
+            "TELEHEALTH": {
+                "0": 304,
+                "1": 0
+            },
+            "THERAPEUTIC RADIOLOGY": {
+                "0": 2,
+                "1": 0
+            },
+            "THYROIDECTOMY, PARTIAL OR COMPLETE": {
+                "0": 2,
+                "1": 0
+            },
+            "TONSILLECTOMY AND/OR ADENOIDECTOMY": {
+                "0": 1,
+                "1": 1
+            },
+            "TRACHEOSCOPY AND LARYNGOSCOPY WITH BIOPSY": {
+                "0": 21,
+                "1": 0
+            },
+            "TRACTION, SPLINTS, AND OTHER WOUND CARE": {
+                "0": 54,
+                "1": 0
+            },
+            "TRANSPORTATION - PATIENT, PROVIDER, EQUIPMENT": {
+                "0": 135,
+                "1": 0
+            },
+            "TRANSURETHRAL RESECTION OF PROSTATE (TURP)": {
+                "0": 1,
+                "1": 0
+            },
+            "TREATMENT, FRACTURE OR DISLOCATION OF HIP AND FEMUR": {
+                "0": 1,
+                "1": 0
+            },
+            "TREATMENT, FRACTURE OR DISLOCATION OF LOWER EXTREMITY (OTHER THAN HIP OR FEMUR)": {
+                "0": 1,
+                "1": 1
+            },
+            "UPPER GASTROINTESTINAL ENDOSCOPY, BIOPSY": {
+                "0": 72,
+                "1": 0
+            },
+            "UPPER GASTROINTESTINAL X-RAY": {
+                "0": 1,
+                "1": 0
+            },
+            "URETERAL CATHETERIZATION": {
+                "0": 1,
+                "1": 0
+            },
+            "VARICOSE VEIN STRIPPING, LOWER LIMB": {
+                "0": 3,
+                "1": 0
+            },
+            "VISUAL AIDS AND OTHER OPTICAL SUPPLIES": {
+                "0": 144,
+                "1": 0
+            }
+        },
+        "LABEL_GROUP_COST": {
+            "High spend": {
+                "0": 397674,
+                "1": 22
+            },
+            "Low spend": {
+                "0": 15612,
+                "1": 1
+            },
+            "Medium spend": {
+                "0": 11226,
+                "1": 0
+            }
+        },
+        "FAMILIA_CID": {
+            "A04": {
+                "0": 7,
+                "1": 0
+            },
+            "A08": {
+                "0": 7,
+                "1": 0
+            },
+            "A09": {
+                "0": 6,
+                "1": 0
+            },
+            "A15": {
+                "0": 5,
+                "1": 0
+            },
+            "A32": {
+                "0": 1,
+                "1": 0
+            },
+            "A40": {
+                "0": 1,
+                "1": 0
+            },
+            "A41": {
+                "0": 29,
+                "1": 0
+            },
+            "A51": {
+                "0": 1,
+                "1": 0
+            },
+            "A53": {
+                "0": 1,
+                "1": 0
+            },
+            "A60": {
+                "0": 2,
+                "1": 0
+            },
+            "A63": {
+                "0": 1,
+                "1": 0
+            },
+            "A64": {
+                "0": 3,
+                "1": 0
+            },
+            "A74": {
+                "0": 2,
+                "1": 0
+            },
+            "B00": {
+                "0": 6,
+                "1": 0
+            },
+            "B02": {
+                "0": 9,
+                "1": 0
+            },
+            "B07": {
+                "0": 20,
+                "1": 0
+            },
+            "B08": {
+                "0": 18,
+                "1": 0
+            },
+            "B09": {
+                "0": 3,
+                "1": 0
+            },
+            "B18": {
+                "0": 24,
+                "1": 0
+            },
+            "B19": {
+                "0": 2,
+                "1": 0
+            },
+            "B20": {
+                "0": 25,
+                "1": 0
+            },
+            "B25": {
+                "0": 1,
+                "1": 0
+            },
+            "B30": {
+                "0": 2,
+                "1": 0
+            },
+            "B33": {
+                "0": 3,
+                "1": 0
+            },
+            "B34": {
+                "0": 36,
+                "1": 0
+            },
+            "B35": {
+                "0": 60,
+                "1": 0
+            },
+            "B36": {
+                "0": 5,
+                "1": 0
+            },
+            "B37": {
+                "0": 30,
+                "1": 0
+            },
+            "B59": {
+                "0": 1,
+                "1": 0
+            },
+            "B85": {
+                "0": 1,
+                "1": 0
+            },
+            "B86": {
+                "0": 3,
+                "1": 0
+            },
+            "B96": {
+                "0": 1,
+                "1": 0
+            },
+            "B97": {
+                "0": 3,
+                "1": 0
+            },
+            "C01": {
+                "0": 1,
+                "1": 0
+            },
+            "C02": {
+                "0": 4,
+                "1": 0
+            },
+            "C04": {
+                "0": 1,
+                "1": 0
+            },
+            "C06": {
+                "0": 1,
+                "1": 0
+            },
+            "C09": {
+                "0": 4,
+                "1": 0
+            },
+            "C10": {
+                "0": 1,
+                "1": 0
+            },
+            "C15": {
+                "0": 4,
+                "1": 0
+            },
+            "C16": {
+                "0": 4,
+                "1": 0
+            },
+            "C17": {
+                "0": 1,
+                "1": 0
+            },
+            "C18": {
+                "0": 22,
+                "1": 0
+            },
+            "C19": {
+                "0": 2,
+                "1": 0
+            },
+            "C20": {
+                "0": 13,
+                "1": 0
+            },
+            "C21": {
+                "0": 1,
+                "1": 0
+            },
+            "C22": {
+                "0": 7,
+                "1": 0
+            },
+            "C23": {
+                "0": 1,
+                "1": 0
+            },
+            "C24": {
+                "0": 1,
+                "1": 0
+            },
+            "C25": {
+                "0": 12,
+                "1": 0
+            },
+            "C31": {
+                "0": 1,
+                "1": 0
+            },
+            "C32": {
+                "0": 1,
+                "1": 0
+            },
+            "C34": {
+                "0": 42,
+                "1": 1
+            },
+            "C37": {
+                "0": 1,
+                "1": 0
+            },
+            "C38": {
+                "0": 1,
+                "1": 0
+            },
+            "C40": {
+                "0": 1,
+                "1": 0
+            },
+            "C41": {
+                "0": 2,
+                "1": 0
+            },
+            "C43": {
+                "0": 14,
+                "1": 0
+            },
+            "C44": {
+                "0": 95,
+                "1": 0
+            },
+            "C49": {
+                "0": 8,
+                "1": 0
+            },
+            "C50": {
+                "0": 114,
+                "1": 1
+            },
+            "C51": {
+                "0": 1,
+                "1": 0
+            },
+            "C53": {
+                "0": 9,
+                "1": 0
+            },
+            "C54": {
+                "0": 8,
+                "1": 0
+            },
+            "C55": {
+                "0": 1,
+                "1": 0
+            },
+            "C56": {
+                "0": 7,
+                "1": 0
+            },
+            "C57": {
+                "0": 3,
+                "1": 0
+            },
+            "C61": {
+                "0": 54,
+                "1": 0
+            },
+            "C62": {
+                "0": 4,
+                "1": 0
+            },
+            "C64": {
+                "0": 6,
+                "1": 0
+            },
+            "C66": {
+                "0": 1,
+                "1": 0
+            },
+            "C67": {
+                "0": 9,
+                "1": 0
+            },
+            "C69": {
+                "0": 2,
+                "1": 0
+            },
+            "C71": {
+                "0": 6,
+                "1": 0
+            },
+            "C73": {
+                "0": 19,
+                "1": 0
+            },
+            "C76": {
+                "0": 3,
+                "1": 0
+            },
+            "C77": {
+                "0": 1,
+                "1": 0
+            },
+            "C78": {
+                "0": 4,
+                "1": 0
+            },
+            "C79": {
+                "0": 10,
+                "1": 0
+            },
+            "C7A": {
+                "0": 5,
+                "1": 0
+            },
+            "C7B": {
+                "0": 1,
+                "1": 0
+            },
+            "C80": {
+                "0": 3,
+                "1": 0
+            },
+            "C81": {
+                "0": 8,
+                "1": 0
+            },
+            "C82": {
+                "0": 7,
+                "1": 0
+            },
+            "C83": {
+                "0": 7,
+                "1": 0
+            },
+            "C85": {
+                "0": 4,
+                "1": 0
+            },
+            "C90": {
+                "0": 16,
+                "1": 0
+            },
+            "C91": {
+                "0": 11,
+                "1": 0
+            },
+            "C92": {
+                "0": 5,
+                "1": 0
+            },
+            "C95": {
+                "0": 2,
+                "1": 0
+            },
+            "D01": {
+                "0": 1,
+                "1": 0
+            },
+            "D03": {
+                "0": 7,
+                "1": 0
+            },
+            "D04": {
+                "0": 6,
+                "1": 0
+            },
+            "D05": {
+                "0": 9,
+                "1": 0
+            },
+            "D06": {
+                "0": 6,
+                "1": 0
+            },
+            "D07": {
+                "0": 3,
+                "1": 0
+            },
+            "D12": {
+                "0": 19,
+                "1": 0
+            },
+            "D16": {
+                "0": 2,
+                "1": 0
+            },
+            "D17": {
+                "0": 6,
+                "1": 0
+            },
+            "D18": {
+                "0": 7,
+                "1": 0
+            },
+            "D22": {
+                "0": 58,
+                "1": 0
+            },
+            "D23": {
+                "0": 11,
+                "1": 0
+            },
+            "D24": {
+                "0": 2,
+                "1": 0
+            },
+            "D25": {
+                "0": 4,
+                "1": 0
+            },
+            "D26": {
+                "0": 1,
+                "1": 0
+            },
+            "D31": {
+                "0": 4,
+                "1": 0
+            },
+            "D33": {
+                "0": 1,
+                "1": 0
+            },
+            "D35": {
+                "0": 2,
+                "1": 0
+            },
+            "D36": {
+                "0": 2,
+                "1": 0
+            },
+            "D37": {
+                "0": 1,
+                "1": 0
+            },
+            "D39": {
+                "0": 2,
+                "1": 0
+            },
+            "D3A": {
+                "0": 4,
+                "1": 0
+            },
+            "D40": {
+                "0": 1,
+                "1": 0
+            },
+            "D44": {
+                "0": 1,
+                "1": 0
+            },
+            "D45": {
+                "0": 5,
+                "1": 0
+            },
+            "D46": {
+                "0": 4,
+                "1": 0
+            },
+            "D47": {
+                "0": 9,
+                "1": 0
+            },
+            "D48": {
+                "0": 144,
+                "1": 0
+            },
+            "D49": {
+                "0": 44,
+                "1": 0
+            },
+            "D50": {
+                "0": 41,
+                "1": 0
+            },
+            "D51": {
+                "0": 3,
+                "1": 0
+            },
+            "D53": {
+                "0": 2,
+                "1": 0
+            },
+            "D56": {
+                "0": 4,
+                "1": 0
+            },
+            "D57": {
+                "0": 10,
+                "1": 0
+            },
+            "D59": {
+                "0": 1,
+                "1": 0
+            },
+            "D60": {
+                "0": 1,
+                "1": 0
+            },
+            "D61": {
+                "0": 2,
+                "1": 0
+            },
+            "D62": {
+                "0": 4,
+                "1": 0
+            },
+            "D63": {
+                "0": 1,
+                "1": 0
+            },
+            "D64": {
+                "0": 47,
+                "1": 0
+            },
+            "D66": {
+                "0": 2,
+                "1": 0
+            },
+            "D68": {
+                "0": 13,
+                "1": 0
+            },
+            "D69": {
+                "0": 13,
+                "1": 0
+            },
+            "D70": {
+                "0": 5,
+                "1": 0
+            },
+            "D71": {
+                "0": 1,
+                "1": 0
+            },
+            "D72": {
+                "0": 18,
+                "1": 0
+            },
+            "D75": {
+                "0": 9,
+                "1": 0
+            },
+            "D80": {
+                "0": 2,
+                "1": 0
+            },
+            "D81": {
+                "0": 1,
+                "1": 0
+            },
+            "D83": {
+                "0": 1,
+                "1": 0
+            },
+            "D84": {
+                "0": 1,
+                "1": 0
+            },
+            "D86": {
+                "0": 2,
+                "1": 0
+            },
+            "E00": {
+                "0": 1,
+                "1": 0
+            },
+            "E01": {
+                "0": 4,
+                "1": 0
+            },
+            "E02": {
+                "0": 1,
+                "1": 0
+            },
+            "E03": {
+                "0": 168,
+                "1": 0
+            },
+            "E04": {
+                "0": 55,
+                "1": 0
+            },
+            "E05": {
+                "0": 48,
+                "1": 0
+            },
+            "E06": {
+                "0": 15,
+                "1": 0
+            },
+            "E07": {
+                "0": 3,
+                "1": 0
+            },
+            "E08": {
+                "0": 10,
+                "1": 0
+            },
+            "E10": {
+                "0": 140,
+                "1": 0
+            },
+            "E11": {
+                "0": 1646,
+                "1": 0
+            },
+            "E13": {
+                "0": 12,
+                "1": 0
+            },
+            "E16": {
+                "0": 3,
+                "1": 0
+            },
+            "E21": {
+                "0": 6,
+                "1": 0
+            },
+            "E22": {
+                "0": 5,
+                "1": 0
+            },
+            "E23": {
+                "0": 4,
+                "1": 0
+            },
+            "E27": {
+                "0": 4,
+                "1": 0
+            },
+            "E28": {
+                "0": 14,
+                "1": 0
+            },
+            "E29": {
+                "0": 17,
+                "1": 0
+            },
+            "E34": {
+                "0": 8,
+                "1": 0
+            },
+            "E43": {
+                "0": 6,
+                "1": 0
+            },
+            "E44": {
+                "0": 5,
+                "1": 0
+            },
+            "E46": {
+                "0": 3,
+                "1": 0
+            },
+            "E51": {
+                "0": 1,
+                "1": 0
+            },
+            "E53": {
+                "0": 19,
+                "1": 0
+            },
+            "E55": {
+                "0": 40,
+                "1": 0
+            },
+            "E61": {
+                "0": 7,
+                "1": 0
+            },
+            "E63": {
+                "0": 2,
+                "1": 0
+            },
+            "E66": {
+                "0": 239,
+                "1": 0
+            },
+            "E67": {
+                "0": 1,
+                "1": 0
+            },
+            "E70": {
+                "0": 4,
+                "1": 0
+            },
+            "E73": {
+                "0": 1,
+                "1": 0
+            },
+            "E74": {
+                "0": 5,
+                "1": 0
+            },
+            "E75": {
+                "0": 2,
+                "1": 0
+            },
+            "E78": {
+                "0": 953,
+                "1": 0
+            },
+            "E79": {
+                "0": 9,
+                "1": 0
+            },
+            "E80": {
+                "0": 2,
+                "1": 0
+            },
+            "E83": {
+                "0": 17,
+                "1": 0
+            },
+            "E84": {
+                "0": 4,
+                "1": 0
+            },
+            "E86": {
+                "0": 11,
+                "1": 0
+            },
+            "E87": {
+                "0": 33,
+                "1": 0
+            },
+            "E88": {
+                "0": 21,
+                "1": 0
+            },
+            "E89": {
+                "0": 25,
+                "1": 0
+            },
+            "F01": {
+                "0": 8,
+                "1": 0
+            },
+            "F02": {
+                "0": 5,
+                "1": 0
+            },
+            "F03": {
+                "0": 44,
+                "1": 0
+            },
+            "F05": {
+                "0": 1,
+                "1": 0
+            },
+            "F06": {
+                "0": 7,
+                "1": 0
+            },
+            "F07": {
+                "0": 4,
+                "1": 0
+            },
+            "F10": {
+                "0": 250,
+                "1": 1
+            },
+            "F11": {
+                "0": 399,
+                "1": 0
+            },
+            "F12": {
+                "0": 34,
+                "1": 0
+            },
+            "F13": {
+                "0": 1,
+                "1": 0
+            },
+            "F14": {
+                "0": 7,
+                "1": 0
+            },
+            "F15": {
+                "0": 70,
+                "1": 0
+            },
+            "F17": {
+                "0": 64,
+                "1": 0
+            },
+            "F19": {
+                "0": 19,
+                "1": 0
+            },
+            "F20": {
+                "0": 88,
+                "1": 0
+            },
+            "F22": {
+                "0": 5,
+                "1": 0
+            },
+            "F25": {
+                "0": 83,
+                "1": 0
+            },
+            "F29": {
+                "0": 7,
+                "1": 0
+            },
+            "F30": {
+                "0": 2,
+                "1": 0
+            },
+            "F31": {
+                "0": 270,
+                "1": 0
+            },
+            "F32": {
+                "0": 559,
+                "1": 0
+            },
+            "F33": {
+                "0": 1005,
+                "1": 0
+            },
+            "F34": {
+                "0": 143,
+                "1": 0
+            },
+            "F39": {
+                "0": 48,
+                "1": 0
+            },
+            "F40": {
+                "0": 14,
+                "1": 0
+            },
+            "F41": {
+                "0": 574,
+                "1": 0
+            },
+            "F42": {
+                "0": 10,
+                "1": 0
+            },
+            "F43": {
+                "0": 233,
+                "1": 0
+            },
+            "F45": {
+                "0": 1,
+                "1": 0
+            },
+            "F48": {
+                "0": 1,
+                "1": 0
+            },
+            "F50": {
+                "0": 42,
+                "1": 0
+            },
+            "F51": {
+                "0": 33,
+                "1": 0
+            },
+            "F52": {
+                "0": 1,
+                "1": 0
+            },
+            "F53": {
+                "0": 1,
+                "1": 0
+            },
+            "F60": {
+                "0": 29,
+                "1": 0
+            },
+            "F63": {
+                "0": 16,
+                "1": 0
+            },
+            "F64": {
+                "0": 39,
+                "1": 0
+            },
+            "F65": {
+                "0": 1,
+                "1": 0
+            },
+            "F68": {
+                "0": 1,
+                "1": 0
+            },
+            "F70": {
+                "0": 3,
+                "1": 0
+            },
+            "F72": {
+                "0": 1,
+                "1": 0
+            },
+            "F79": {
+                "0": 1,
+                "1": 0
+            },
+            "F80": {
+                "0": 250,
+                "1": 0
+            },
+            "F81": {
+                "0": 7,
+                "1": 0
+            },
+            "F82": {
+                "0": 35,
+                "1": 0
+            },
+            "F84": {
+                "0": 366,
+                "1": 0
+            },
+            "F88": {
+                "0": 26,
+                "1": 0
+            },
+            "F89": {
+                "0": 9,
+                "1": 0
+            },
+            "F90": {
+                "0": 495,
+                "1": 0
+            },
+            "F91": {
+                "0": 61,
+                "1": 0
+            },
+            "F93": {
+                "0": 5,
+                "1": 0
+            },
+            "F94": {
+                "0": 1,
+                "1": 0
+            },
+            "F95": {
+                "0": 8,
+                "1": 0
+            },
+            "F98": {
+                "0": 19,
+                "1": 0
+            },
+            "F99": {
+                "0": 5,
+                "1": 0
+            },
+            "G00": {
+                "0": 1,
+                "1": 0
+            },
+            "G06": {
+                "0": 1,
+                "1": 0
+            },
+            "G10": {
+                "0": 3,
+                "1": 0
+            },
+            "G11": {
+                "0": 1,
+                "1": 0
+            },
+            "G12": {
+                "0": 13,
+                "1": 0
+            },
+            "G20": {
+                "0": 39,
+                "1": 0
+            },
+            "G23": {
+                "0": 2,
+                "1": 0
+            },
+            "G24": {
+                "0": 15,
+                "1": 0
+            },
+            "G25": {
+                "0": 32,
+                "1": 0
+            },
+            "G30": {
+                "0": 48,
+                "1": 0
+            },
+            "G31": {
+                "0": 27,
+                "1": 0
+            },
+            "G35": {
+                "0": 55,
+                "1": 2
+            },
+            "G37": {
+                "0": 1,
+                "1": 0
+            },
+            "G40": {
+                "0": 125,
+                "1": 0
+            },
+            "G43": {
+                "0": 274,
+                "1": 0
+            },
+            "G44": {
+                "0": 25,
+                "1": 0
+            },
+            "G45": {
+                "0": 17,
+                "1": 0
+            },
+            "G47": {
+                "0": 380,
+                "1": 1
+            },
+            "G50": {
+                "0": 2,
+                "1": 0
+            },
+            "G51": {
+                "0": 5,
+                "1": 0
+            },
+            "G52": {
+                "0": 1,
+                "1": 0
+            },
+            "G54": {
+                "0": 2,
+                "1": 0
+            },
+            "G56": {
+                "0": 32,
+                "1": 0
+            },
+            "G57": {
+                "0": 12,
+                "1": 0
+            },
+            "G60": {
+                "0": 17,
+                "1": 0
+            },
+            "G61": {
+                "0": 11,
+                "1": 1
+            },
+            "G62": {
+                "0": 38,
+                "1": 0
+            },
+            "G70": {
+                "0": 9,
+                "1": 0
+            },
+            "G71": {
+                "0": 7,
+                "1": 0
+            },
+            "G72": {
+                "0": 2,
+                "1": 0
+            },
+            "G80": {
+                "0": 69,
+                "1": 0
+            },
+            "G81": {
+                "0": 15,
+                "1": 0
+            },
+            "G82": {
+                "0": 19,
+                "1": 0
+            },
+            "G83": {
+                "0": 4,
+                "1": 0
+            },
+            "G89": {
+                "0": 124,
+                "1": 0
+            },
+            "G90": {
+                "0": 7,
+                "1": 0
+            },
+            "G91": {
+                "0": 4,
+                "1": 0
+            },
+            "G92": {
+                "0": 2,
+                "1": 0
+            },
+            "G93": {
+                "0": 44,
+                "1": 0
+            },
+            "G95": {
+                "0": 7,
+                "1": 0
+            },
+            "G96": {
+                "0": 1,
+                "1": 0
+            },
+            "G97": {
+                "0": 1,
+                "1": 0
+            },
+            "G99": {
+                "0": 1,
+                "1": 0
+            },
+            "H00": {
+                "0": 13,
+                "1": 0
+            },
+            "H01": {
+                "0": 6,
+                "1": 0
+            },
+            "H02": {
+                "0": 10,
+                "1": 0
+            },
+            "H04": {
+                "0": 17,
+                "1": 0
+            },
+            "H05": {
+                "0": 1,
+                "1": 0
+            },
+            "H10": {
+                "0": 51,
+                "1": 0
+            },
+            "H11": {
+                "0": 6,
+                "1": 0
+            },
+            "H15": {
+                "0": 1,
+                "1": 0
+            },
+            "H16": {
+                "0": 10,
+                "1": 0
+            },
+            "H17": {
+                "0": 1,
+                "1": 0
+            },
+            "H18": {
+                "0": 8,
+                "1": 0
+            },
+            "H20": {
+                "0": 1,
+                "1": 0
+            },
+            "H25": {
+                "0": 58,
+                "1": 0
+            },
+            "H26": {
+                "0": 9,
+                "1": 0
+            },
+            "H27": {
+                "0": 1,
+                "1": 0
+            },
+            "H30": {
+                "0": 1,
+                "1": 0
+            },
+            "H33": {
+                "0": 3,
+                "1": 0
+            },
+            "H34": {
+                "0": 4,
+                "1": 0
+            },
+            "H35": {
+                "0": 88,
+                "1": 0
+            },
+            "H40": {
+                "0": 114,
+                "1": 0
+            },
+            "H43": {
+                "0": 34,
+                "1": 0
+            },
+            "H44": {
+                "0": 3,
+                "1": 0
+            },
+            "H47": {
+                "0": 31,
+                "1": 0
+            },
+            "H49": {
+                "0": 2,
+                "1": 0
+            },
+            "H50": {
+                "0": 72,
+                "1": 0
+            },
+            "H51": {
+                "0": 5,
+                "1": 0
+            },
+            "H52": {
+                "0": 338,
+                "1": 0
+            },
+            "H53": {
+                "0": 108,
+                "1": 0
+            },
+            "H54": {
+                "0": 21,
+                "1": 0
+            },
+            "H55": {
+                "0": 5,
+                "1": 0
+            },
+            "H57": {
+                "0": 11,
+                "1": 0
+            },
+            "H59": {
+                "0": 1,
+                "1": 0
+            },
+            "H60": {
+                "0": 26,
+                "1": 0
+            },
+            "H61": {
+                "0": 43,
+                "1": 0
+            },
+            "H62": {
+                "0": 1,
+                "1": 0
+            },
+            "H65": {
+                "0": 29,
+                "1": 0
+            },
+            "H66": {
+                "0": 89,
+                "1": 0
+            },
+            "H69": {
+                "0": 19,
+                "1": 0
+            },
+            "H72": {
+                "0": 3,
+                "1": 0
+            },
+            "H73": {
+                "0": 2,
+                "1": 0
+            },
+            "H81": {
+                "0": 11,
+                "1": 0
+            },
+            "H90": {
+                "0": 51,
+                "1": 0
+            },
+            "H91": {
+                "0": 12,
+                "1": 0
+            },
+            "H92": {
+                "0": 16,
+                "1": 0
+            },
+            "H93": {
+                "0": 16,
+                "1": 0
+            },
+            "I05": {
+                "0": 3,
+                "1": 0
+            },
+            "I07": {
+                "0": 4,
+                "1": 0
+            },
+            "I08": {
+                "0": 9,
+                "1": 0
+            },
+            "I09": {
+                "0": 1,
+                "1": 0
+            },
+            "I10": {
+                "0": 2204,
+                "1": 0
+            },
+            "I11": {
+                "0": 74,
+                "1": 0
+            },
+            "I12": {
+                "0": 73,
+                "1": 0
+            },
+            "I13": {
+                "0": 16,
+                "1": 0
+            },
+            "I15": {
+                "0": 8,
+                "1": 0
+            },
+            "I16": {
+                "0": 33,
+                "1": 0
+            },
+            "I20": {
+                "0": 26,
+                "1": 0
+            },
+            "I21": {
+                "0": 53,
+                "1": 0
+            },
+            "I23": {
+                "0": 1,
+                "1": 0
+            },
+            "I24": {
+                "0": 6,
+                "1": 0
+            },
+            "I25": {
+                "0": 273,
+                "1": 0
+            },
+            "I26": {
+                "0": 28,
+                "1": 0
+            },
+            "I27": {
+                "0": 15,
+                "1": 0
+            },
+            "I31": {
+                "0": 4,
+                "1": 0
+            },
+            "I33": {
+                "0": 1,
+                "1": 0
+            },
+            "I34": {
+                "0": 34,
+                "1": 0
+            },
+            "I35": {
+                "0": 64,
+                "1": 0
+            },
+            "I36": {
+                "0": 5,
+                "1": 0
+            },
+            "I37": {
+                "0": 3,
+                "1": 0
+            },
+            "I38": {
+                "0": 1,
+                "1": 0
+            },
+            "I42": {
+                "0": 54,
+                "1": 0
+            },
+            "I44": {
+                "0": 23,
+                "1": 0
+            },
+            "I45": {
+                "0": 17,
+                "1": 0
+            },
+            "I46": {
+                "0": 33,
+                "1": 0
+            },
+            "I47": {
+                "0": 42,
+                "1": 1
+            },
+            "I48": {
+                "0": 285,
+                "1": 0
+            },
+            "I49": {
+                "0": 118,
+                "1": 0
+            },
+            "I50": {
+                "0": 154,
+                "1": 0
+            },
+            "I51": {
+                "0": 30,
+                "1": 0
+            },
+            "I60": {
+                "0": 6,
+                "1": 0
+            },
+            "I61": {
+                "0": 14,
+                "1": 0
+            },
+            "I62": {
+                "0": 6,
+                "1": 0
+            },
+            "I63": {
+                "0": 109,
+                "1": 0
+            },
+            "I65": {
+                "0": 24,
+                "1": 0
+            },
+            "I66": {
+                "0": 1,
+                "1": 0
+            },
+            "I67": {
+                "0": 17,
+                "1": 0
+            },
+            "I69": {
+                "0": 69,
+                "1": 0
+            },
+            "I70": {
+                "0": 24,
+                "1": 0
+            },
+            "I71": {
+                "0": 14,
+                "1": 0
+            },
+            "I72": {
+                "0": 8,
+                "1": 0
+            },
+            "I73": {
+                "0": 63,
+                "1": 0
+            },
+            "I74": {
+                "0": 3,
+                "1": 0
+            },
+            "I75": {
+                "0": 1,
+                "1": 0
+            },
+            "I77": {
+                "0": 3,
+                "1": 0
+            },
+            "I78": {
+                "0": 4,
+                "1": 0
+            },
+            "I80": {
+                "0": 3,
+                "1": 0
+            },
+            "I81": {
+                "0": 1,
+                "1": 0
+            },
+            "I82": {
+                "0": 20,
+                "1": 0
+            },
+            "I83": {
+                "0": 59,
+                "1": 0
+            },
+            "I85": {
+                "0": 1,
+                "1": 0
+            },
+            "I86": {
+                "0": 3,
+                "1": 0
+            },
+            "I87": {
+                "0": 51,
+                "1": 0
+            },
+            "I89": {
+                "0": 14,
+                "1": 0
+            },
+            "I95": {
+                "0": 5,
+                "1": 0
+            },
+            "I96": {
+                "0": 3,
+                "1": 0
+            },
+            "I97": {
+                "0": 1,
+                "1": 0
+            },
+            "I99": {
+                "0": 2,
+                "1": 0
+            },
+            "J00": {
+                "0": 10,
+                "1": 0
+            },
+            "J01": {
+                "0": 71,
+                "1": 0
+            },
+            "J02": {
+                "0": 74,
+                "1": 0
+            },
+            "J03": {
+                "0": 5,
+                "1": 0
+            },
+            "J04": {
+                "0": 1,
+                "1": 0
+            },
+            "J05": {
+                "0": 30,
+                "1": 0
+            },
+            "J06": {
+                "0": 219,
+                "1": 0
+            },
+            "J09": {
+                "0": 1,
+                "1": 0
+            },
+            "J10": {
+                "0": 13,
+                "1": 0
+            },
+            "J11": {
+                "0": 6,
+                "1": 0
+            },
+            "J12": {
+                "0": 5,
+                "1": 0
+            },
+            "J15": {
+                "0": 3,
+                "1": 0
+            },
+            "J16": {
+                "0": 1,
+                "1": 0
+            },
+            "J18": {
+                "0": 32,
+                "1": 0
+            },
+            "J20": {
+                "0": 28,
+                "1": 0
+            },
+            "J21": {
+                "0": 41,
+                "1": 0
+            },
+            "J22": {
+                "0": 4,
+                "1": 0
+            },
+            "J30": {
+                "0": 95,
+                "1": 0
+            },
+            "J31": {
+                "0": 12,
+                "1": 0
+            },
+            "J32": {
+                "0": 27,
+                "1": 0
+            },
+            "J34": {
+                "0": 25,
+                "1": 0
+            },
+            "J35": {
+                "0": 18,
+                "1": 0
+            },
+            "J36": {
+                "0": 1,
+                "1": 0
+            },
+            "J37": {
+                "0": 1,
+                "1": 0
+            },
+            "J38": {
+                "0": 5,
+                "1": 0
+            },
+            "J39": {
+                "0": 2,
+                "1": 0
+            },
+            "J40": {
+                "0": 18,
+                "1": 0
+            },
+            "J41": {
+                "0": 8,
+                "1": 0
+            },
+            "J42": {
+                "0": 11,
+                "1": 0
+            },
+            "J43": {
+                "0": 22,
+                "1": 0
+            },
+            "J44": {
+                "0": 315,
+                "1": 0
+            },
+            "J45": {
+                "0": 556,
+                "1": 0
+            },
+            "J47": {
+                "0": 4,
+                "1": 0
+            },
+            "J61": {
+                "0": 1,
+                "1": 0
+            },
+            "J68": {
+                "0": 1,
+                "1": 0
+            },
+            "J69": {
+                "0": 3,
+                "1": 0
+            },
+            "J81": {
+                "0": 1,
+                "1": 0
+            },
+            "J84": {
+                "0": 7,
+                "1": 0
+            },
+            "J85": {
+                "0": 1,
+                "1": 0
+            },
+            "J90": {
+                "0": 4,
+                "1": 0
+            },
+            "J91": {
+                "0": 1,
+                "1": 0
+            },
+            "J93": {
+                "0": 1,
+                "1": 0
+            },
+            "J95": {
+                "0": 1,
+                "1": 0
+            },
+            "J96": {
+                "0": 77,
+                "1": 0
+            },
+            "J98": {
+                "0": 24,
+                "1": 0
+            },
+            "K00": {
+                "0": 6,
+                "1": 0
+            },
+            "K01": {
+                "0": 2,
+                "1": 0
+            },
+            "K02": {
+                "0": 8,
+                "1": 0
+            },
+            "K03": {
+                "0": 1,
+                "1": 0
+            },
+            "K04": {
+                "0": 13,
+                "1": 0
+            },
+            "K05": {
+                "0": 1,
+                "1": 0
+            },
+            "K08": {
+                "0": 6,
+                "1": 0
+            },
+            "K11": {
+                "0": 2,
+                "1": 0
+            },
+            "K12": {
+                "0": 7,
+                "1": 0
+            },
+            "K13": {
+                "0": 10,
+                "1": 0
+            },
+            "K14": {
+                "0": 4,
+                "1": 0
+            },
+            "K20": {
+                "0": 9,
+                "1": 0
+            },
+            "K21": {
+                "0": 244,
+                "1": 0
+            },
+            "K22": {
+                "0": 31,
+                "1": 0
+            },
+            "K25": {
+                "0": 10,
+                "1": 0
+            },
+            "K26": {
+                "0": 3,
+                "1": 0
+            },
+            "K27": {
+                "0": 1,
+                "1": 0
+            },
+            "K29": {
+                "0": 26,
+                "1": 0
+            },
+            "K30": {
+                "0": 2,
+                "1": 0
+            },
+            "K31": {
+                "0": 13,
+                "1": 0
+            },
+            "K35": {
+                "0": 5,
+                "1": 0
+            },
+            "K37": {
+                "0": 2,
+                "1": 0
+            },
+            "K40": {
+                "0": 21,
+                "1": 0
+            },
+            "K42": {
+                "0": 9,
+                "1": 0
+            },
+            "K43": {
+                "0": 3,
+                "1": 0
+            },
+            "K44": {
+                "0": 8,
+                "1": 0
+            },
+            "K50": {
+                "0": 54,
+                "1": 1
+            },
+            "K51": {
+                "0": 45,
+                "1": 0
+            },
+            "K52": {
+                "0": 28,
+                "1": 0
+            },
+            "K55": {
+                "0": 2,
+                "1": 0
+            },
+            "K56": {
+                "0": 10,
+                "1": 0
+            },
+            "K57": {
+                "0": 21,
+                "1": 0
+            },
+            "K58": {
+                "0": 7,
+                "1": 0
+            },
+            "K59": {
+                "0": 51,
+                "1": 0
+            },
+            "K60": {
+                "0": 8,
+                "1": 0
+            },
+            "K61": {
+                "0": 3,
+                "1": 0
+            },
+            "K62": {
+                "0": 24,
+                "1": 0
+            },
+            "K63": {
+                "0": 15,
+                "1": 0
+            },
+            "K64": {
+                "0": 24,
+                "1": 0
+            },
+            "K65": {
+                "0": 1,
+                "1": 0
+            },
+            "K70": {
+                "0": 15,
+                "1": 0
+            },
+            "K72": {
+                "0": 2,
+                "1": 0
+            },
+            "K73": {
+                "0": 1,
+                "1": 0
+            },
+            "K74": {
+                "0": 10,
+                "1": 0
+            },
+            "K75": {
+                "0": 10,
+                "1": 0
+            },
+            "K76": {
+                "0": 27,
+                "1": 0
+            },
+            "K80": {
+                "0": 5,
+                "1": 0
+            },
+            "K81": {
+                "0": 2,
+                "1": 0
+            },
+            "K82": {
+                "0": 2,
+                "1": 0
+            },
+            "K83": {
+                "0": 1,
+                "1": 0
+            },
+            "K85": {
+                "0": 4,
+                "1": 0
+            },
+            "K86": {
+                "0": 5,
+                "1": 0
+            },
+            "K90": {
+                "0": 13,
+                "1": 0
+            },
+            "K91": {
+                "0": 11,
+                "1": 0
+            },
+            "K92": {
+                "0": 62,
+                "1": 0
+            },
+            "K94": {
+                "0": 4,
+                "1": 0
+            },
+            "L00": {
+                "0": 1,
+                "1": 0
+            },
+            "L01": {
+                "0": 6,
+                "1": 0
+            },
+            "L02": {
+                "0": 33,
+                "1": 0
+            },
+            "L03": {
+                "0": 74,
+                "1": 0
+            },
+            "L04": {
+                "0": 1,
+                "1": 0
+            },
+            "L05": {
+                "0": 3,
+                "1": 0
+            },
+            "L08": {
+                "0": 15,
+                "1": 0
+            },
+            "L12": {
+                "0": 1,
+                "1": 0
+            },
+            "L20": {
+                "0": 44,
+                "1": 0
+            },
+            "L21": {
+                "0": 20,
+                "1": 0
+            },
+            "L22": {
+                "0": 11,
+                "1": 0
+            },
+            "L23": {
+                "0": 10,
+                "1": 0
+            },
+            "L25": {
+                "0": 8,
+                "1": 0
+            },
+            "L27": {
+                "0": 2,
+                "1": 0
+            },
+            "L28": {
+                "0": 6,
+                "1": 0
+            },
+            "L29": {
+                "0": 11,
+                "1": 0
+            },
+            "L30": {
+                "0": 41,
+                "1": 0
+            },
+            "L40": {
+                "0": 116,
+                "1": 3
+            },
+            "L42": {
+                "0": 1,
+                "1": 0
+            },
+            "L44": {
+                "0": 1,
+                "1": 0
+            },
+            "L50": {
+                "0": 20,
+                "1": 0
+            },
+            "L51": {
+                "0": 2,
+                "1": 0
+            },
+            "L55": {
+                "0": 2,
+                "1": 0
+            },
+            "L56": {
+                "0": 2,
+                "1": 0
+            },
+            "L57": {
+                "0": 64,
+                "1": 0
+            },
+            "L60": {
+                "0": 27,
+                "1": 0
+            },
+            "L63": {
+                "0": 3,
+                "1": 0
+            },
+            "L64": {
+                "0": 2,
+                "1": 0
+            },
+            "L65": {
+                "0": 9,
+                "1": 0
+            },
+            "L67": {
+                "0": 1,
+                "1": 0
+            },
+            "L68": {
+                "0": 3,
+                "1": 0
+            },
+            "L70": {
+                "0": 35,
+                "1": 0
+            },
+            "L71": {
+                "0": 3,
+                "1": 0
+            },
+            "L72": {
+                "0": 26,
+                "1": 0
+            },
+            "L73": {
+                "0": 11,
+                "1": 0
+            },
+            "L74": {
+                "0": 4,
+                "1": 0
+            },
+            "L75": {
+                "0": 1,
+                "1": 0
+            },
+            "L80": {
+                "0": 7,
+                "1": 0
+            },
+            "L81": {
+                "0": 31,
+                "1": 0
+            },
+            "L82": {
+                "0": 38,
+                "1": 0
+            },
+            "L83": {
+                "0": 1,
+                "1": 0
+            },
+            "L84": {
+                "0": 18,
+                "1": 0
+            },
+            "L85": {
+                "0": 23,
+                "1": 0
+            },
+            "L89": {
+                "0": 23,
+                "1": 0
+            },
+            "L90": {
+                "0": 10,
+                "1": 0
+            },
+            "L91": {
+                "0": 14,
+                "1": 0
+            },
+            "L92": {
+                "0": 5,
+                "1": 0
+            },
+            "L93": {
+                "0": 1,
+                "1": 0
+            },
+            "L94": {
+                "0": 1,
+                "1": 0
+            },
+            "L97": {
+                "0": 22,
+                "1": 0
+            },
+            "L98": {
+                "0": 18,
+                "1": 0
+            },
+            "M00": {
+                "0": 3,
+                "1": 0
+            },
+            "M04": {
+                "0": 1,
+                "1": 0
+            },
+            "M05": {
+                "0": 42,
+                "1": 0
+            },
+            "M06": {
+                "0": 35,
+                "1": 0
+            },
+            "M10": {
+                "0": 70,
+                "1": 0
+            },
+            "M12": {
+                "0": 6,
+                "1": 0
+            },
+            "M13": {
+                "0": 13,
+                "1": 0
+            },
+            "M14": {
+                "0": 2,
+                "1": 0
+            },
+            "M15": {
+                "0": 31,
+                "1": 0
+            },
+            "M16": {
+                "0": 72,
+                "1": 1
+            },
+            "M17": {
+                "0": 427,
+                "1": 1
+            },
+            "M18": {
+                "0": 19,
+                "1": 0
+            },
+            "M19": {
+                "0": 132,
+                "1": 0
+            },
+            "M1A": {
+                "0": 22,
+                "1": 0
+            },
+            "M20": {
+                "0": 15,
+                "1": 0
+            },
+            "M21": {
+                "0": 18,
+                "1": 0
+            },
+            "M22": {
+                "0": 6,
+                "1": 0
+            },
+            "M23": {
+                "0": 10,
+                "1": 0
+            },
+            "M24": {
+                "0": 27,
+                "1": 0
+            },
+            "M25": {
+                "0": 551,
+                "1": 0
+            },
+            "M26": {
+                "0": 5,
+                "1": 0
+            },
+            "M30": {
+                "0": 1,
+                "1": 0
+            },
+            "M31": {
+                "0": 5,
+                "1": 0
+            },
+            "M32": {
+                "0": 18,
+                "1": 0
+            },
+            "M33": {
+                "0": 4,
+                "1": 1
+            },
+            "M34": {
+                "0": 5,
+                "1": 0
+            },
+            "M35": {
+                "0": 11,
+                "1": 0
+            },
+            "M40": {
+                "0": 2,
+                "1": 0
+            },
+            "M41": {
+                "0": 26,
+                "1": 0
+            },
+            "M43": {
+                "0": 28,
+                "1": 0
+            },
+            "M45": {
+                "0": 8,
+                "1": 0
+            },
+            "M46": {
+                "0": 41,
+                "1": 1
+            },
+            "M47": {
+                "0": 223,
+                "1": 0
+            },
+            "M48": {
+                "0": 108,
+                "1": 0
+            },
+            "M50": {
+                "0": 48,
+                "1": 0
+            },
+            "M51": {
+                "0": 147,
+                "1": 0
+            },
+            "M53": {
+                "0": 13,
+                "1": 0
+            },
+            "M54": {
+                "0": 654,
+                "1": 0
+            },
+            "M60": {
+                "0": 2,
+                "1": 0
+            },
+            "M62": {
+                "0": 55,
+                "1": 0
+            },
+            "M65": {
+                "0": 24,
+                "1": 0
+            },
+            "M66": {
+                "0": 1,
+                "1": 0
+            },
+            "M67": {
+                "0": 8,
+                "1": 0
+            },
+            "M70": {
+                "0": 20,
+                "1": 0
+            },
+            "M71": {
+                "0": 7,
+                "1": 0
+            },
+            "M72": {
+                "0": 19,
+                "1": 0
+            },
+            "M75": {
+                "0": 52,
+                "1": 0
+            },
+            "M76": {
+                "0": 10,
+                "1": 0
+            },
+            "M77": {
+                "0": 13,
+                "1": 0
+            },
+            "M79": {
+                "0": 162,
+                "1": 0
+            },
+            "M80": {
+                "0": 9,
+                "1": 0
+            },
+            "M81": {
+                "0": 91,
+                "1": 0
+            },
+            "M84": {
+                "0": 1,
+                "1": 0
+            },
+            "M85": {
+                "0": 6,
+                "1": 0
+            },
+            "M86": {
+                "0": 14,
+                "1": 0
+            },
+            "M87": {
+                "0": 6,
+                "1": 0
+            },
+            "M89": {
+                "0": 6,
+                "1": 0
+            },
+            "M92": {
+                "0": 3,
+                "1": 0
+            },
+            "M94": {
+                "0": 3,
+                "1": 0
+            },
+            "M95": {
+                "0": 1,
+                "1": 0
+            },
+            "M96": {
+                "0": 4,
+                "1": 0
+            },
+            "M99": {
+                "0": 333,
+                "1": 0
+            },
+            "N02": {
+                "0": 3,
+                "1": 0
+            },
+            "N05": {
+                "0": 2,
+                "1": 1
+            },
+            "N07": {
+                "0": 1,
+                "1": 0
+            },
+            "N10": {
+                "0": 2,
+                "1": 0
+            },
+            "N12": {
+                "0": 5,
+                "1": 0
+            },
+            "N13": {
+                "0": 21,
+                "1": 0
+            },
+            "N17": {
+                "0": 61,
+                "1": 0
+            },
+            "N18": {
+                "0": 253,
+                "1": 1
+            },
+            "N19": {
+                "0": 2,
+                "1": 0
+            },
+            "N20": {
+                "0": 22,
+                "1": 0
+            },
+            "N21": {
+                "0": 1,
+                "1": 0
+            },
+            "N23": {
+                "0": 1,
+                "1": 0
+            },
+            "N25": {
+                "0": 1,
+                "1": 0
+            },
+            "N26": {
+                "0": 1,
+                "1": 0
+            },
+            "N28": {
+                "0": 7,
+                "1": 0
+            },
+            "N30": {
+                "0": 20,
+                "1": 0
+            },
+            "N31": {
+                "0": 3,
+                "1": 0
+            },
+            "N32": {
+                "0": 6,
+                "1": 0
+            },
+            "N34": {
+                "0": 3,
+                "1": 0
+            },
+            "N35": {
+                "0": 1,
+                "1": 0
+            },
+            "N39": {
+                "0": 46,
+                "1": 0
+            },
+            "N40": {
+                "0": 34,
+                "1": 0
+            },
+            "N43": {
+                "0": 3,
+                "1": 0
+            },
+            "N45": {
+                "0": 3,
+                "1": 0
+            },
+            "N47": {
+                "0": 7,
+                "1": 0
+            },
+            "N48": {
+                "0": 4,
+                "1": 0
+            },
+            "N49": {
+                "0": 2,
+                "1": 0
+            },
+            "N50": {
+                "0": 10,
+                "1": 0
+            },
+            "N52": {
+                "0": 9,
+                "1": 0
+            },
+            "N60": {
+                "0": 4,
+                "1": 0
+            },
+            "N61": {
+                "0": 2,
+                "1": 0
+            },
+            "N62": {
+                "0": 6,
+                "1": 0
+            },
+            "N63": {
+                "0": 14,
+                "1": 0
+            },
+            "N64": {
+                "0": 9,
+                "1": 0
+            },
+            "N70": {
+                "0": 1,
+                "1": 0
+            },
+            "N71": {
+                "0": 1,
+                "1": 0
+            },
+            "N76": {
+                "0": 10,
+                "1": 0
+            },
+            "N80": {
+                "0": 2,
+                "1": 0
+            },
+            "N81": {
+                "0": 6,
+                "1": 0
+            },
+            "N83": {
+                "0": 9,
+                "1": 0
+            },
+            "N84": {
+                "0": 3,
+                "1": 0
+            },
+            "N85": {
+                "0": 2,
+                "1": 0
+            },
+            "N87": {
+                "0": 12,
+                "1": 0
+            },
+            "N88": {
+                "0": 1,
+                "1": 0
+            },
+            "N89": {
+                "0": 10,
+                "1": 0
+            },
+            "N90": {
+                "0": 2,
+                "1": 0
+            },
+            "N91": {
+                "0": 15,
+                "1": 0
+            },
+            "N92": {
+                "0": 42,
+                "1": 0
+            },
+            "N93": {
+                "0": 24,
+                "1": 0
+            },
+            "N94": {
+                "0": 10,
+                "1": 0
+            },
+            "N95": {
+                "0": 31,
+                "1": 0
+            },
+            "N96": {
+                "0": 1,
+                "1": 0
+            },
+            "N97": {
+                "0": 2,
+                "1": 0
+            },
+            "N99": {
+                "0": 3,
+                "1": 0
+            },
+            "O00": {
+                "0": 6,
+                "1": 0
+            },
+            "O01": {
+                "0": 2,
+                "1": 0
+            },
+            "O02": {
+                "0": 5,
+                "1": 0
+            },
+            "O03": {
+                "0": 4,
+                "1": 0
+            },
+            "O09": {
+                "0": 64,
+                "1": 0
+            },
+            "O10": {
+                "0": 6,
+                "1": 0
+            },
+            "O13": {
+                "0": 9,
+                "1": 0
+            },
+            "O14": {
+                "0": 8,
+                "1": 0
+            },
+            "O16": {
+                "0": 1,
+                "1": 0
+            },
+            "O20": {
+                "0": 16,
+                "1": 0
+            },
+            "O21": {
+                "0": 18,
+                "1": 0
+            },
+            "O22": {
+                "0": 1,
+                "1": 0
+            },
+            "O23": {
+                "0": 10,
+                "1": 0
+            },
+            "O24": {
+                "0": 28,
+                "1": 0
+            },
+            "O26": {
+                "0": 37,
+                "1": 0
+            },
+            "O28": {
+                "0": 2,
+                "1": 0
+            },
+            "O30": {
+                "0": 4,
+                "1": 0
+            },
+            "O32": {
+                "0": 11,
+                "1": 0
+            },
+            "O34": {
+                "0": 13,
+                "1": 0
+            },
+            "O36": {
+                "0": 17,
+                "1": 0
+            },
+            "O40": {
+                "0": 2,
+                "1": 0
+            },
+            "O41": {
+                "0": 4,
+                "1": 0
+            },
+            "O42": {
+                "0": 5,
+                "1": 0
+            },
+            "O43": {
+                "0": 1,
+                "1": 0
+            },
+            "O47": {
+                "0": 5,
+                "1": 0
+            },
+            "O48": {
+                "0": 3,
+                "1": 0
+            },
+            "O60": {
+                "0": 9,
+                "1": 0
+            },
+            "O61": {
+                "0": 1,
+                "1": 0
+            },
+            "O62": {
+                "0": 2,
+                "1": 0
+            },
+            "O63": {
+                "0": 1,
+                "1": 0
+            },
+            "O64": {
+                "0": 4,
+                "1": 0
+            },
+            "O66": {
+                "0": 2,
+                "1": 0
+            },
+            "O69": {
+                "0": 3,
+                "1": 0
+            },
+            "O70": {
+                "0": 2,
+                "1": 0
+            },
+            "O72": {
+                "0": 3,
+                "1": 0
+            },
+            "O75": {
+                "0": 3,
+                "1": 0
+            },
+            "O76": {
+                "0": 6,
+                "1": 0
+            },
+            "O80": {
+                "0": 1,
+                "1": 0
+            },
+            "O82": {
+                "0": 1,
+                "1": 0
+            },
+            "O90": {
+                "0": 4,
+                "1": 0
+            },
+            "O98": {
+                "0": 7,
+                "1": 0
+            },
+            "O99": {
+                "0": 40,
+                "1": 0
+            },
+            "O9A": {
+                "0": 3,
+                "1": 0
+            },
+            "P01": {
+                "0": 1,
+                "1": 0
+            },
+            "P03": {
+                "0": 8,
+                "1": 0
+            },
+            "P04": {
+                "0": 2,
+                "1": 0
+            },
+            "P07": {
+                "0": 36,
+                "1": 0
+            },
+            "P08": {
+                "0": 2,
+                "1": 0
+            },
+            "P09": {
+                "0": 2,
+                "1": 0
+            },
+            "P13": {
+                "0": 1,
+                "1": 0
+            },
+            "P14": {
+                "0": 1,
+                "1": 0
+            },
+            "P22": {
+                "0": 7,
+                "1": 0
+            },
+            "P28": {
+                "0": 6,
+                "1": 0
+            },
+            "P29": {
+                "0": 1,
+                "1": 0
+            },
+            "P37": {
+                "0": 1,
+                "1": 0
+            },
+            "P54": {
+                "0": 1,
+                "1": 0
+            },
+            "P55": {
+                "0": 1,
+                "1": 0
+            },
+            "P59": {
+                "0": 54,
+                "1": 0
+            },
+            "P70": {
+                "0": 3,
+                "1": 0
+            },
+            "P76": {
+                "0": 1,
+                "1": 0
+            },
+            "P78": {
+                "0": 4,
+                "1": 0
+            },
+            "P80": {
+                "0": 1,
+                "1": 0
+            },
+            "P81": {
+                "0": 2,
+                "1": 0
+            },
+            "P83": {
+                "0": 6,
+                "1": 0
+            },
+            "P84": {
+                "0": 1,
+                "1": 0
+            },
+            "P90": {
+                "0": 2,
+                "1": 0
+            },
+            "P91": {
+                "0": 1,
+                "1": 0
+            },
+            "P92": {
+                "0": 34,
+                "1": 0
+            },
+            "P96": {
+                "0": 8,
+                "1": 0
+            },
+            "Q02": {
+                "0": 2,
+                "1": 0
+            },
+            "Q03": {
+                "0": 1,
+                "1": 0
+            },
+            "Q04": {
+                "0": 2,
+                "1": 0
+            },
+            "Q05": {
+                "0": 5,
+                "1": 0
+            },
+            "Q10": {
+                "0": 17,
+                "1": 0
+            },
+            "Q11": {
+                "0": 1,
+                "1": 0
+            },
+            "Q12": {
+                "0": 2,
+                "1": 0
+            },
+            "Q14": {
+                "0": 8,
+                "1": 0
+            },
+            "Q16": {
+                "0": 1,
+                "1": 0
+            },
+            "Q20": {
+                "0": 3,
+                "1": 0
+            },
+            "Q21": {
+                "0": 32,
+                "1": 0
+            },
+            "Q22": {
+                "0": 7,
+                "1": 0
+            },
+            "Q23": {
+                "0": 21,
+                "1": 0
+            },
+            "Q24": {
+                "0": 7,
+                "1": 0
+            },
+            "Q25": {
+                "0": 13,
+                "1": 0
+            },
+            "Q26": {
+                "0": 4,
+                "1": 0
+            },
+            "Q27": {
+                "0": 4,
+                "1": 0
+            },
+            "Q28": {
+                "0": 4,
+                "1": 0
+            },
+            "Q31": {
+                "0": 3,
+                "1": 0
+            },
+            "Q33": {
+                "0": 1,
+                "1": 0
+            },
+            "Q35": {
+                "0": 2,
+                "1": 0
+            },
+            "Q36": {
+                "0": 1,
+                "1": 0
+            },
+            "Q37": {
+                "0": 4,
+                "1": 0
+            },
+            "Q38": {
+                "0": 5,
+                "1": 0
+            },
+            "Q40": {
+                "0": 1,
+                "1": 0
+            },
+            "Q51": {
+                "0": 1,
+                "1": 0
+            },
+            "Q53": {
+                "0": 3,
+                "1": 0
+            },
+            "Q54": {
+                "0": 4,
+                "1": 0
+            },
+            "Q55": {
+                "0": 8,
+                "1": 0
+            },
+            "Q61": {
+                "0": 4,
+                "1": 0
+            },
+            "Q64": {
+                "0": 1,
+                "1": 0
+            },
+            "Q65": {
+                "0": 6,
+                "1": 0
+            },
+            "Q66": {
+                "0": 16,
+                "1": 0
+            },
+            "Q67": {
+                "0": 14,
+                "1": 0
+            },
+            "Q68": {
+                "0": 1,
+                "1": 0
+            },
+            "Q69": {
+                "0": 1,
+                "1": 0
+            },
+            "Q71": {
+                "0": 1,
+                "1": 0
+            },
+            "Q72": {
+                "0": 2,
+                "1": 0
+            },
+            "Q73": {
+                "0": 1,
+                "1": 0
+            },
+            "Q74": {
+                "0": 2,
+                "1": 0
+            },
+            "Q75": {
+                "0": 6,
+                "1": 0
+            },
+            "Q76": {
+                "0": 1,
+                "1": 0
+            },
+            "Q79": {
+                "0": 5,
+                "1": 0
+            },
+            "Q80": {
+                "0": 1,
+                "1": 0
+            },
+            "Q82": {
+                "0": 2,
+                "1": 0
+            },
+            "Q85": {
+                "0": 8,
+                "1": 0
+            },
+            "Q87": {
+                "0": 11,
+                "1": 0
+            },
+            "Q89": {
+                "0": 1,
+                "1": 0
+            },
+            "Q90": {
+                "0": 16,
+                "1": 0
+            },
+            "Q92": {
+                "0": 1,
+                "1": 0
+            },
+            "Q93": {
+                "0": 4,
+                "1": 0
+            },
+            "Q96": {
+                "0": 2,
+                "1": 0
+            },
+            "Q98": {
+                "0": 1,
+                "1": 0
+            },
+            "Q99": {
+                "0": 6,
+                "1": 0
+            },
+            "R00": {
+                "0": 99,
+                "1": 0
+            },
+            "R01": {
+                "0": 18,
+                "1": 0
+            },
+            "R03": {
+                "0": 52,
+                "1": 0
+            },
+            "R04": {
+                "0": 9,
+                "1": 0
+            },
+            "R05": {
+                "0": 154,
+                "1": 0
+            },
+            "R06": {
+                "0": 162,
+                "1": 0
+            },
+            "R07": {
+                "0": 220,
+                "1": 0
+            },
+            "R09": {
+                "0": 53,
+                "1": 0
+            },
+            "R10": {
+                "0": 171,
+                "1": 0
+            },
+            "R11": {
+                "0": 59,
+                "1": 0
+            },
+            "R12": {
+                "0": 2,
+                "1": 0
+            },
+            "R13": {
+                "0": 43,
+                "1": 0
+            },
+            "R14": {
+                "0": 8,
+                "1": 0
+            },
+            "R15": {
+                "0": 1,
+                "1": 0
+            },
+            "R16": {
+                "0": 2,
+                "1": 0
+            },
+            "R17": {
+                "0": 5,
+                "1": 0
+            },
+            "R18": {
+                "0": 4,
+                "1": 0
+            },
+            "R19": {
+                "0": 55,
+                "1": 0
+            },
+            "R20": {
+                "0": 27,
+                "1": 0
+            },
+            "R21": {
+                "0": 45,
+                "1": 0
+            },
+            "R22": {
+                "0": 36,
+                "1": 0
+            },
+            "R23": {
+                "0": 7,
+                "1": 0
+            },
+            "R25": {
+                "0": 16,
+                "1": 0
+            },
+            "R26": {
+                "0": 65,
+                "1": 0
+            },
+            "R27": {
+                "0": 4,
+                "1": 0
+            },
+            "R29": {
+                "0": 22,
+                "1": 0
+            },
+            "R30": {
+                "0": 18,
+                "1": 0
+            },
+            "R31": {
+                "0": 18,
+                "1": 0
+            },
+            "R32": {
+                "0": 8,
+                "1": 0
+            },
+            "R33": {
+                "0": 4,
+                "1": 0
+            },
+            "R35": {
+                "0": 11,
+                "1": 0
+            },
+            "R36": {
+                "0": 2,
+                "1": 0
+            },
+            "R39": {
+                "0": 8,
+                "1": 0
+            },
+            "R40": {
+                "0": 2,
+                "1": 0
+            },
+            "R41": {
+                "0": 55,
+                "1": 0
+            },
+            "R42": {
+                "0": 71,
+                "1": 0
+            },
+            "R43": {
+                "0": 1,
+                "1": 0
+            },
+            "R44": {
+                "0": 4,
+                "1": 0
+            },
+            "R45": {
+                "0": 25,
+                "1": 0
+            },
+            "R46": {
+                "0": 11,
+                "1": 0
+            },
+            "R47": {
+                "0": 11,
+                "1": 0
+            },
+            "R48": {
+                "0": 5,
+                "1": 0
+            },
+            "R49": {
+                "0": 7,
+                "1": 0
+            },
+            "R50": {
+                "0": 76,
+                "1": 0
+            },
+            "R51": {
+                "0": 65,
+                "1": 0
+            },
+            "R52": {
+                "0": 7,
+                "1": 0
+            },
+            "R53": {
+                "0": 97,
+                "1": 0
+            },
+            "R54": {
+                "0": 2,
+                "1": 0
+            },
+            "R55": {
+                "0": 37,
+                "1": 0
+            },
+            "R56": {
+                "0": 19,
+                "1": 0
+            },
+            "R57": {
+                "0": 2,
+                "1": 0
+            },
+            "R58": {
+                "0": 2,
+                "1": 0
+            },
+            "R59": {
+                "0": 11,
+                "1": 0
+            },
+            "R60": {
+                "0": 27,
+                "1": 0
+            },
+            "R61": {
+                "0": 2,
+                "1": 0
+            },
+            "R62": {
+                "0": 65,
+                "1": 0
+            },
+            "R63": {
+                "0": 69,
+                "1": 0
+            },
+            "R65": {
+                "0": 2,
+                "1": 0
+            },
+            "R68": {
+                "0": 35,
+                "1": 0
+            },
+            "R69": {
+                "0": 33,
+                "1": 0
+            },
+            "R70": {
+                "0": 1,
+                "1": 0
+            },
+            "R71": {
+                "0": 3,
+                "1": 0
+            },
+            "R73": {
+                "0": 189,
+                "1": 0
+            },
+            "R74": {
+                "0": 24,
+                "1": 0
+            },
+            "R76": {
+                "0": 7,
+                "1": 0
+            },
+            "R77": {
+                "0": 5,
+                "1": 0
+            },
+            "R78": {
+                "0": 8,
+                "1": 0
+            },
+            "R79": {
+                "0": 29,
+                "1": 0
+            },
+            "R80": {
+                "0": 4,
+                "1": 0
+            },
+            "R82": {
+                "0": 5,
+                "1": 0
+            },
+            "R87": {
+                "0": 11,
+                "1": 0
+            },
+            "R89": {
+                "0": 2,
+                "1": 0
+            },
+            "R91": {
+                "0": 16,
+                "1": 0
+            },
+            "R92": {
+                "0": 6,
+                "1": 0
+            },
+            "R93": {
+                "0": 12,
+                "1": 0
+            },
+            "R94": {
+                "0": 53,
+                "1": 0
+            },
+            "R97": {
+                "0": 3,
+                "1": 0
+            },
+            "S00": {
+                "0": 16,
+                "1": 0
+            },
+            "S01": {
+                "0": 22,
+                "1": 0
+            },
+            "S02": {
+                "0": 5,
+                "1": 0
+            },
+            "S03": {
+                "0": 2,
+                "1": 0
+            },
+            "S05": {
+                "0": 5,
+                "1": 0
+            },
+            "S06": {
+                "0": 13,
+                "1": 0
+            },
+            "S09": {
+                "0": 17,
+                "1": 0
+            },
+            "S12": {
+                "0": 2,
+                "1": 0
+            },
+            "S13": {
+                "0": 5,
+                "1": 0
+            },
+            "S14": {
+                "0": 3,
+                "1": 0
+            },
+            "S16": {
+                "0": 9,
+                "1": 0
+            },
+            "S19": {
+                "0": 1,
+                "1": 0
+            },
+            "S20": {
+                "0": 4,
+                "1": 0
+            },
+            "S22": {
+                "0": 11,
+                "1": 0
+            },
+            "S23": {
+                "0": 3,
+                "1": 0
+            },
+            "S24": {
+                "0": 1,
+                "1": 0
+            },
+            "S29": {
+                "0": 9,
+                "1": 0
+            },
+            "S30": {
+                "0": 4,
+                "1": 0
+            },
+            "S32": {
+                "0": 5,
+                "1": 0
+            },
+            "S33": {
+                "0": 4,
+                "1": 0
+            },
+            "S39": {
+                "0": 16,
+                "1": 0
+            },
+            "S40": {
+                "0": 2,
+                "1": 0
+            },
+            "S42": {
+                "0": 10,
+                "1": 0
+            },
+            "S43": {
+                "0": 12,
+                "1": 0
+            },
+            "S46": {
+                "0": 16,
+                "1": 0
+            },
+            "S49": {
+                "0": 1,
+                "1": 0
+            },
+            "S50": {
+                "0": 2,
+                "1": 0
+            },
+            "S51": {
+                "0": 5,
+                "1": 0
+            },
+            "S52": {
+                "0": 12,
+                "1": 0
+            },
+            "S53": {
+                "0": 3,
+                "1": 0
+            },
+            "S59": {
+                "0": 1,
+                "1": 0
+            },
+            "S60": {
+                "0": 4,
+                "1": 0
+            },
+            "S61": {
+                "0": 35,
+                "1": 0
+            },
+            "S62": {
+                "0": 5,
+                "1": 0
+            },
+            "S63": {
+                "0": 1,
+                "1": 0
+            },
+            "S66": {
+                "0": 2,
+                "1": 0
+            },
+            "S67": {
+                "0": 1,
+                "1": 0
+            },
+            "S69": {
+                "0": 5,
+                "1": 0
+            },
+            "S70": {
+                "0": 4,
+                "1": 0
+            },
+            "S72": {
+                "0": 18,
+                "1": 0
+            },
+            "S76": {
+                "0": 8,
+                "1": 0
+            },
+            "S79": {
+                "0": 1,
+                "1": 0
+            },
+            "S80": {
+                "0": 6,
+                "1": 0
+            },
+            "S81": {
+                "0": 12,
+                "1": 0
+            },
+            "S82": {
+                "0": 15,
+                "1": 0
+            },
+            "S83": {
+                "0": 28,
+                "1": 0
+            },
+            "S84": {
+                "0": 1,
+                "1": 0
+            },
+            "S86": {
+                "0": 5,
+                "1": 0
+            },
+            "S89": {
+                "0": 4,
+                "1": 0
+            },
+            "S90": {
+                "0": 5,
+                "1": 0
+            },
+            "S91": {
+                "0": 6,
+                "1": 0
+            },
+            "S92": {
+                "0": 3,
+                "1": 0
+            },
+            "S93": {
+                "0": 15,
+                "1": 1
+            },
+            "S96": {
+                "0": 3,
+                "1": 0
+            },
+            "S98": {
+                "0": 1,
+                "1": 0
+            },
+            "T14": {
+                "0": 4,
+                "1": 0
+            },
+            "T15": {
+                "0": 4,
+                "1": 0
+            },
+            "T16": {
+                "0": 1,
+                "1": 0
+            },
+            "T17": {
+                "0": 3,
+                "1": 0
+            },
+            "T18": {
+                "0": 4,
+                "1": 0
+            },
+            "T20": {
+                "0": 1,
+                "1": 0
+            },
+            "T22": {
+                "0": 3,
+                "1": 0
+            },
+            "T23": {
+                "0": 1,
+                "1": 0
+            },
+            "T24": {
+                "0": 1,
+                "1": 0
+            },
+            "T25": {
+                "0": 2,
+                "1": 0
+            },
+            "T30": {
+                "0": 1,
+                "1": 0
+            },
+            "T31": {
+                "0": 2,
+                "1": 0
+            },
+            "T33": {
+                "0": 1,
+                "1": 0
+            },
+            "T37": {
+                "0": 1,
+                "1": 0
+            },
+            "T39": {
+                "0": 2,
+                "1": 0
+            },
+            "T40": {
+                "0": 4,
+                "1": 0
+            },
+            "T43": {
+                "0": 3,
+                "1": 0
+            },
+            "T44": {
+                "0": 1,
+                "1": 0
+            },
+            "T45": {
+                "0": 2,
+                "1": 0
+            },
+            "T46": {
+                "0": 1,
+                "1": 0
+            },
+            "T50": {
+                "0": 3,
+                "1": 0
+            },
+            "T57": {
+                "0": 1,
+                "1": 0
+            },
+            "T59": {
+                "0": 1,
+                "1": 0
+            },
+            "T63": {
+                "0": 3,
+                "1": 0
+            },
+            "T65": {
+                "0": 3,
+                "1": 0
+            },
+            "T73": {
+                "0": 1,
+                "1": 0
+            },
+            "T74": {
+                "0": 2,
+                "1": 0
+            },
+            "T75": {
+                "0": 3,
+                "1": 0
+            },
+            "T76": {
+                "0": 1,
+                "1": 0
+            },
+            "T78": {
+                "0": 26,
+                "1": 0
+            },
+            "T79": {
+                "0": 1,
+                "1": 0
+            },
+            "T80": {
+                "0": 2,
+                "1": 0
+            },
+            "T81": {
+                "0": 5,
+                "1": 0
+            },
+            "T82": {
+                "0": 5,
+                "1": 0
+            },
+            "T84": {
+                "0": 8,
+                "1": 0
+            },
+            "T85": {
+                "0": 1,
+                "1": 1
+            },
+            "T86": {
+                "0": 2,
+                "1": 0
+            },
+            "U07": {
+                "0": 341,
+                "1": 0
+            },
+            "U09": {
+                "0": 11,
+                "1": 0
+            },
+            "Z00": {
+                "0": 392426,
+                "1": 0
+            },
+            "Z01": {
+                "0": 244,
+                "1": 0
+            },
+            "Z02": {
+                "0": 25,
+                "1": 0
+            },
+            "Z03": {
+                "0": 6,
+                "1": 0
+            },
+            "Z04": {
+                "0": 5,
+                "1": 0
+            },
+            "Z08": {
+                "0": 7,
+                "1": 0
+            },
+            "Z09": {
+                "0": 33,
+                "1": 0
+            },
+            "Z11": {
+                "0": 31,
+                "1": 0
+            },
+            "Z12": {
+                "0": 197,
+                "1": 0
+            },
+            "Z13": {
+                "0": 153,
+                "1": 0
+            },
+            "Z20": {
+                "0": 49,
+                "1": 0
+            },
+            "Z21": {
+                "0": 2,
+                "1": 0
+            },
+            "Z22": {
+                "0": 7,
+                "1": 0
+            },
+            "Z23": {
+                "0": 729,
+                "1": 0
+            },
+            "Z28": {
+                "0": 3,
+                "1": 0
+            },
+            "Z29": {
+                "0": 6,
+                "1": 0
+            },
+            "Z30": {
+                "0": 36,
+                "1": 0
+            },
+            "Z31": {
+                "0": 5,
+                "1": 0
+            },
+            "Z32": {
+                "0": 7,
+                "1": 0
+            },
+            "Z34": {
+                "0": 28,
+                "1": 0
+            },
+            "Z36": {
+                "0": 4,
+                "1": 0
+            },
+            "Z37": {
+                "0": 1,
+                "1": 0
+            },
+            "Z39": {
+                "0": 9,
+                "1": 0
+            },
+            "Z3A": {
+                "0": 4,
+                "1": 0
+            },
+            "Z41": {
+                "0": 10,
+                "1": 0
+            },
+            "Z42": {
+                "0": 2,
+                "1": 0
+            },
+            "Z43": {
+                "0": 3,
+                "1": 0
+            },
+            "Z45": {
+                "0": 22,
+                "1": 0
+            },
+            "Z46": {
+                "0": 8,
+                "1": 0
+            },
+            "Z47": {
+                "0": 24,
+                "1": 0
+            },
+            "Z48": {
+                "0": 24,
+                "1": 0
+            },
+            "Z51": {
+                "0": 126,
+                "1": 3
+            },
+            "Z55": {
+                "0": 1,
+                "1": 0
+            },
+            "Z59": {
+                "0": 1,
+                "1": 0
+            },
+            "Z62": {
+                "0": 1,
+                "1": 0
+            },
+            "Z63": {
+                "0": 1,
+                "1": 0
+            },
+            "Z68": {
+                "0": 93,
+                "1": 0
+            },
+            "Z71": {
+                "0": 73,
+                "1": 0
+            },
+            "Z72": {
+                "0": 10,
+                "1": 0
+            },
+            "Z73": {
+                "0": 1,
+                "1": 0
+            },
+            "Z74": {
+                "0": 4,
+                "1": 0
+            },
+            "Z76": {
+                "0": 31,
+                "1": 0
+            },
+            "Z77": {
+                "0": 3,
+                "1": 0
+            },
+            "Z78": {
+                "0": 21,
+                "1": 0
+            },
+            "Z79": {
+                "0": 38,
+                "1": 0
+            },
+            "Z80": {
+                "0": 4,
+                "1": 0
+            },
+            "Z82": {
+                "0": 5,
+                "1": 0
+            },
+            "Z83": {
+                "0": 3,
+                "1": 0
+            },
+            "Z84": {
+                "0": 1,
+                "1": 0
+            },
+            "Z85": {
+                "0": 18,
+                "1": 0
+            },
+            "Z86": {
+                "0": 25,
+                "1": 0
+            },
+            "Z87": {
+                "0": 14,
+                "1": 0
+            },
+            "Z89": {
+                "0": 3,
+                "1": 0
+            },
+            "Z90": {
+                "0": 4,
+                "1": 0
+            },
+            "Z91": {
+                "0": 16,
+                "1": 0
+            },
+            "Z92": {
+                "0": 2,
+                "1": 0
+            },
+            "Z93": {
+                "0": 19,
+                "1": 0
+            },
+            "Z94": {
+                "0": 15,
+                "1": 0
+            },
+            "Z95": {
+                "0": 99,
+                "1": 0
+            },
+            "Z96": {
+                "0": 9,
+                "1": 0
+            },
+            "Z97": {
+                "0": 1,
+                "1": 0
+            },
+            "Z98": {
+                "0": 23,
+                "1": 0
+            },
+            "Z99": {
+                "0": 6,
+                "1": 0
+            }
+        },
+        "AGE_CATEGORY": {
+            "0-18": {
+                "0": 10069,
+                "1": 1
+            },
+            "18-60": {
+                "0": 16335,
+                "1": 13
+            },
+            "60+": {
+                "0": 398108,
+                "1": 9
+            }
+        }
+    },
+    "numeric_means": {
+        "RX_DRUG_COST": {
+            "0": 0.0,
+            "1": 0.0
+        },
+        "AMT_BILLED": {
+            "0": 257.7995174799644,
+            "1": 43017.56662590964
+        },
+        "AMT_PAID": {
+            "0": 69.96225215164657,
+            "1": 12356.335178645793
+        },
+        "AGE_ON_DOS": {
+            "0": 40.3325772778551,
+            "1": 48.62317506247534
+        },
+        "MEM_AGE": {
+            "0": 36.221318993538844,
+            "1": 48.61834741853883
+        }
+    }
+}

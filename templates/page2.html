@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Analysis</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <!-- Page 2: Health Analysis -->
+    <section id="page-2" class="view">
+        <div class="logo"><img src="/static/Image/logo.svg" alt="Image" class="section-image-logo"> </div>
+        <div id="user-info">
+            <!-- Preenchido dinamicamente -->
+            <h1>Welcome, {{ user_name }}!</h1>
+        </div>
+        <div>
+            <p>Fill out your health analysis  to see how </br> to feel better.</p>
+        </div>
+    <div id="chat-history">
+        <h3>Chat History</h3>
+        <ul>
+            {% for question, answer in user_responses.items() %}
+            <li>
+                <strong>Q:</strong> {{ question }}<br>
+                <strong>A:</strong> {{ answer }}
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <!-- Exibição da pergunta atual -->
+    <div id="chat-box">
+        {% if current_question %}
+        <h2>Current Question:</h2>
+        <p>{{ current_question }}</p>
+        <form method="post">
+            <input type="text" id="userData" class="start-type" name="userData" placeholder="Type your answer here" required />
+            <button type="submit" class="start-btn">Submit</button>
+        </form>
+        {% endif %}
+
+        <!-- Resposta final, se concluído -->
+        {% if response %}
+        <div id="latest-response">
+            <h3>Analysis Result:</h3>
+            <p>{{ response }}</p>
+        </div>
+        {% endif %}
+    </div>
+</section>
+       <script src="/static/scripts.js"></script>
+</body> 
+</html>
